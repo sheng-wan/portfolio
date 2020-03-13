@@ -1,0 +1,214 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
+@import '../../styles/config';
+
+.menu-hamburger-menu {
+
+  display: none;
+  z-index: 9;
+  top: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+
+  .menu-secondary-background-color {
+    background: $black;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .menu-layer {
+    position: relative;
+    background: $primary-color;
+    height: 100%;
+    overflow: hidden;
+
+    .menu-city-background {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      opacity: 0;
+      background-size: cover;
+      background-repeat: no-repeat;
+      animation-name: backgroundEffect;
+      animation-duration: 30s;
+      animation-iteration-count: infinite;
+    }
+
+    .menu-wrapper {
+      position: relative;
+
+      .menu-links {
+        max-width: 1110px;
+        padding: 20% 15px;
+        margin: auto;
+        // --
+
+        nav {
+          display: block;
+          text-align: center;
+
+          ul {
+            margin: 0;
+            padding: 0;
+
+            li {
+              list-style: none;
+              font-size: 6rem;
+              font-weight: 700;
+              cursor: pointer;
+              height: 140px;
+              overflow: hidden;
+              position: relative;
+              width: 100%;
+
+              a {
+                // position: absolute; it disables the hover animation
+                color: #fff;
+                text-decoration: none;
+
+                &:hover {
+                  color: $black;
+                }
+              }
+            }
+          }
+        }
+
+        //   .info {
+        //     color: #fff;
+        //     width: 300px;
+        //     h3 {
+        //       font-size: 1.2rem;
+        //       margin: 8px auto;
+        //     }
+        //     p {
+        //       margin: 0 auto;
+        //       font-size: 0.8rem;
+        //     }
+        //   }
+        // }
+        // .locations {
+        //   position: absolute;
+        //   bottom: -80px;
+        //   color: #fff;
+        //   margin-top: 16px;
+        //   font-size: 0.8rem;
+        //   font-weight: 600;
+        //   span {
+        //     cursor: pointer;
+        //     &:first-child {
+        //       margin-left: 64px;
+        //     }
+        //     font-weight: 400;
+        //     margin: 0 32px;
+        //     transition: 0.3s ease-in-out;
+        //     &:hover {
+        //       color: #fff;
+        //       background: $black;
+        //       padding: 8px 24px;
+        //       border-radius: 4px;
+        //     }
+        //   }
+      }
+    }
+  }
+}
+
+// Medium devices (tablets)
+@media(max-width: 992px) {
+  .menu-hamburger-menu {
+    .menu-layer {
+      .menu-wrapper {
+        .menu-links {
+          padding-top: 30%;
+
+          nav {
+            ul {
+              li {
+                font-size: 5rem;
+                // background-color: yellow;
+                height: 100px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Small devices (landscape phones)
+@media(max-width: 768px) {
+  .menu-hamburger-menu {
+    .menu-layer {
+      .menu-wrapper {
+        .menu-links {
+          padding-top: 35%;
+
+          nav {
+            ul {
+              li {
+                font-size: 4rem;
+                // background-color: yellow;
+                height: 85px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// Extra small devices (phones)
+@media(max-width: 576px) {
+  .menu-hamburger-menu {
+    .menu-layer {
+      .menu-wrapper {
+        .menu-links {
+          padding-top: 50%;
+
+          nav {
+            ul {
+              li {
+                // background-color: green;
+                font-size: 3rem;
+                height: 70px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+// @keyframes backgroundEffect {
+//   0% {
+//     background-position: 0% 0%;
+//   }
+//   25% {
+//     background-position: 40% 10%;
+//   }
+//   50% {
+//     background-position: 0 10%;
+//   }
+//   75% {
+//     background-position: 10% 40%;
+//   }
+//   100% {
+//     background-position: 0% 0%;
+//   }
+// }
