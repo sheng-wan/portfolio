@@ -1,7 +1,32 @@
-.timeline-h1 {
-  text-align: center;
-  color: #0f4c81;
+@import '../../custom.scss';
+
+// TITLE UNDERLINE
+
+.h1-timeline:after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 50%;
+  width: 115px;
+  height: 4px;
+  border-radius: 2px 0 0 2px;
+  background-color: $secondary;
+  transition: .5s;
 }
+
+.h1-timeline::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 115px;
+  height: 4px;
+  border-radius: 0 2px 2px 0;
+  background-color: $secondary;
+  transition: .5s;
+}
+
+// ----
 
 .timeline-wrapper::before {
   content: '';
@@ -40,7 +65,7 @@
         margin: 0;
         padding: 0;
         font-weight: 600;
-        color: #0f4c81;
+        color: $primary;
       }
 
       .timeline-p {
@@ -72,10 +97,10 @@
         right: -165px;
         margin: 0;
         padding: 8px 16px;
-        background: #0f4c81;
+        background: $primary;
         color: #fff;
         border-radius: 18px;
-        box-shadow: 0 0 0 3px #FADE58;
+        box-shadow: 0 0 0 3px $secondary;
       }
     }
 
@@ -90,10 +115,10 @@
         left: -165px;
         margin: 0;
         padding: 8px 16px;
-        background: #0f4c81;
+        background: $primary;
         color: #fff;
         border-radius: 18px;
-        box-shadow: 0 0 0 3px #FADE58;
+        box-shadow: 0 0 0 3px $secondary;
       }
     }
 
@@ -103,9 +128,9 @@
       right: -6px;
       width: 10px;
       height: 10px;
-      background: #0f4c81;
+      background: $primary;
       border-radius: 50%;
-      box-shadow: 0 0 0 3px #FADE58;
+      box-shadow: 0 0 0 3px $secondary;
     }
 
     .timeline-li:nth-child(even)::before {
@@ -114,9 +139,9 @@
       left: -4px;
       width: 10px;
       height: 10px;
-      background: #0f4c81;
+      background: $primary;
       border-radius: 50%;
-      box-shadow: 0 0 0 3px #FADE58;
+      box-shadow: 0 0 0 3px $secondary;
     }
   }
 }
@@ -130,11 +155,9 @@
   .timeline-wrapper {
     width: 100%;
   }
-
 }
 
 @media (max-width: 767px) {
-
   .timeline-h1 {
     text-align: center;
     font-size: 40px;

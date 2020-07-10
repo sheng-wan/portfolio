@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.scss';
+// import './App.scss';
 
 import Header from './components/Header/Header';
 
@@ -7,7 +7,6 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './views/Home/Home';
 import About from './views/About/About';
-// import About from './old_components/About/About';
 import Projects from './views/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import PageNotFound from './components/PageNotFound/PageNotFound';

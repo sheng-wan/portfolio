@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
-@import '../../styles/config';
+@import '../../custom.scss';
 
 .menu-hamburger-menu {
 
@@ -26,7 +26,7 @@
 
   .menu-layer {
     position: relative;
-    background: $primary-color;
+    background: $primary;
     height: 100%;
     overflow: hidden;
 

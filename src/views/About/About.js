@@ -7,11 +7,11 @@ import { addBackToTop } from 'vanilla-back-to-top';
 
 const About = () => {
 	addBackToTop({
-		backgroundColor: '#0f4c81'
+		backgroundColor: '#0f4c81',
 	});
 
 	return (
-		<div className='about-container'>
+		<div className='container'>
 			<AboutMe />
 			<Skills />
 			<Timeline />

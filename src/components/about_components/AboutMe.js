@@ -3,32 +3,37 @@ import placeholder from '../../images/2.png';
 import './AboutMe.scss';
 
 export const AboutMe = () => (
-	<div className='about-me-container'>
-		<h1 className='about-me-h1'> about me </h1>
-		<div className='about-me-wrapper'>
-			<img className='about-me-img' src={placeholder} alt=''></img>
-			<div className='about-me-p'>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat. Duis aute irure dolor in
-					reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-					pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-					culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-					eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-					minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-					aliquip ex ea commodo consequat.
-				</p>
+	<div className='container mb-5'>
+		<h1 className='h1-about-me text-center text-primary my-4 pb-2 position-relative'>
+			{' '}
+			about me{' '}
+		</h1>
+		<div class='row my-4'>
+			<div className='col-sm-4 pb-3 py-sm-0'>
+				<img className='img-fluid img-thumbnail' src={placeholder} alt=''></img>
+			</div>
+			<div className='col-sm-8'>
+				<div className='about-me-p'>
+					<p className='lead'>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+						aliquip ex ea commodo consequat.
+					</p>
+					<p className='lead'>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+						eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+						ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+						aliquip ex ea commodo consequat.
+					</p>
+					<div className='row'>
+						<button className='btn btn-lg btn-outline-primary ml-3 mr-4'>
+							my works
+						</button>
+						<button className='btn btn-lg btn-primary mr-4'>resume</button>
+						<button className='btn btn-lg btn-secondary'>contact me</button>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
