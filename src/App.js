@@ -5,9 +5,10 @@ import Header from './components/Header/Header';
 
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Home from './components/Home/Home';
-import About from './components/About/About';
-import Projects from './components/Projects/Projects';
+import Home from './views/Home/Home';
+import About from './views/About/About';
+// import About from './old_components/About/About';
+import Projects from './views/Projects/Projects';
 import Contact from './components/Contact/Contact';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 
@@ -18,15 +19,17 @@ function App() {
 				<Header />
 				<div className='container'>
 					<div className='wrapper'>
-						<div className='home'>
-							<Switch>
-								<Route exact path='/' component={Home} />{' '}
-								<Route exact path='/about' component={About} />{' '}
-								<Route exact path='/projects' component={Projects} />{' '}
-								<Route exact path='/contact' component={Contact} />{' '}
-								<Route path='*' component={PageNotFound} />{' '}
-							</Switch>{' '}
-						</div>{' '}
+						{' '}
+						{/* <div className='home'> */}{' '}
+						<Switch>
+							<Route exact path='/' component={Home} />{' '}
+							<Route exact path='/about' component={About} />{' '}
+							{/* <Route exact path='/about' component={About} />{' '} */}{' '}
+							<Route exact path='/projects' component={Projects} />{' '}
+							<Route exact path='/contact' component={Contact} />{' '}
+							<Route path='*' component={PageNotFound} />{' '}
+						</Switch>{' '}
+						{/* </div>{' '} */}{' '}
 					</div>{' '}
 				</div>{' '}
 			</div>{' '}

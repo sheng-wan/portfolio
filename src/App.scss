@@ -1,29 +1,17 @@
-@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
+// @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,600,800&display=swap");
 @import './styles/config';
 
 html,
 .App {
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
   font-family: $font-stack;
-  // background-image: url("./images/mountains_forest_clouds_155467_2560x1440.jpg");
-  // position: absolute;
-  // height: 100%;
-  // width: 100%;
-  // // opacity: 100;
-  // background-size: cover;
-  // background-repeat: no-repeat;
-  // animation-name: backgroundEffect;
-  // animation-duration: 30s;
-  // animation-iteration-count: infinite;
 }
 
 .container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1280px;
-
-  // padding: 0 30px;
-  // margin: 0;
+  // display: flex;
+  // // flex-direction: column;
+  // justify-content: center;
+  // max-width: 1280px;
 }

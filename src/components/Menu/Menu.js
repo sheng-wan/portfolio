@@ -42,7 +42,9 @@ const Menu = ({ menuState }) => {
 			staggerRevealClose(reveal2, reveal1);
 			gsap.to(menuLayer, {
 				duration: 1,
-				css: { display: 'none' }
+				css: {
+					display: 'none'
+				}
 			});
 		} else if (
 			menuState.clicked === true ||
@@ -50,7 +52,9 @@ const Menu = ({ menuState }) => {
 		) {
 			gsap.to(menuLayer, {
 				duration: 0,
-				css: { display: 'block' }
+				css: {
+					display: 'block'
+				}
 			});
 			gsap.to([reveal1, reveal2], {
 				duration: 0,
@@ -68,11 +72,11 @@ const Menu = ({ menuState }) => {
 			<div
 				ref={element => (reveal1 = element)}
 				className='menu-secondary-background-color'
-			></div>
+			></div>{' '}
 			<div ref={element => (reveal2 = element)} className='menu-layer'>
-				{/* <div */}
-				{/* ref={element => (cityBackground = element)} */}
-				{/* className='menu-city-background'></div> */}
+				{' '}
+				{/* <div */} {/* ref={element => (cityBackground = element)} */}{' '}
+				{/* className='menu-city-background'></div> */}{' '}
 				<div className='container'>
 					<div className='menu-wrapper'>
 						<div className='menu-links'>
@@ -83,11 +87,21 @@ const Menu = ({ menuState }) => {
 											onMouseEnter={e => navHoverIn(e)}
 											onMouseOut={e => navHoverOff(e)}
 											ref={element => (nav1 = element)}
+											to='/'
+										>
+											Home{' '}
+										</Link>{' '}
+									</li>{' '}
+									<li>
+										<Link
+											onMouseEnter={e => navHoverIn(e)}
+											onMouseOut={e => navHoverOff(e)}
+											ref={element => (nav1 = element)}
 											to='/about'
 										>
-											About
-										</Link>
-									</li>
+											About{' '}
+										</Link>{' '}
+									</li>{' '}
 									<li>
 										<Link
 											onMouseEnter={e => navHoverIn(e)}
@@ -95,9 +109,9 @@ const Menu = ({ menuState }) => {
 											ref={element => (nav2 = element)}
 											to='/projects'
 										>
-											Projects
-										</Link>
-									</li>
+											Projects{' '}
+										</Link>{' '}
+									</li>{' '}
 									<li>
 										<Link
 											onMouseEnter={e => navHoverIn(e)}
@@ -105,36 +119,28 @@ const Menu = ({ menuState }) => {
 											ref={element => (nav3 = element)}
 											to='/contact'
 										>
-											Contact
-										</Link>
-									</li>
-								</ul>
-							</nav>
-							{/* <div ref={element => (info = element)} className='info'> */}
-							{/* <h3>Our Promise</h3> */}
-							{/* <p> */}
-							{/* The passage experienced a surge in popularity during the 1960s */}
-							{/* when Letraset used it on their dry-transfer sheets, and again */}
-							{/* during the 90s as desktop publishers bundled the text with */}
-							{/* their software. */}
-							{/* </p> */}
-							{/* </div> */}
-							{/* <div className='locations'> */}
-							{/* Locations: */}
-							{/* Returning the list of cities */}
-							{/* {cities.map(element => ( */}
-							{/* <span */}
-							{/* key={element.name} */}
-							{/* onMouseEnter={() => handleCity(element.image, cityBackground)} */}
-							{/* onMouseOut={() => handleCityReturn(cityBackground)}> */}
-							{/* {element.name} */}
-							{/* </span> */}
-							{/* ))} */}
-							{/* </div> */}
-						</div>
-					</div>
-				</div>
-			</div>
+											Contact{' '}
+										</Link>{' '}
+									</li>{' '}
+								</ul>{' '}
+							</nav>{' '}
+							{/* <div ref={element => (info = element)} className='info'> */}{' '}
+							{/* <h3>Our Promise</h3> */} {/* <p> */}{' '}
+							{/* The passage experienced a surge in popularity during the 1960s */}{' '}
+							{/* when Letraset used it on their dry-transfer sheets, and again */}{' '}
+							{/* during the 90s as desktop publishers bundled the text with */}{' '}
+							{/* their software. */} {/* </p> */} {/* </div> */}{' '}
+							{/* <div className='locations'> */} {/* Locations: */}{' '}
+							{/* Returning the list of cities */}{' '}
+							{/* {cities.map(element => ( */} {/* <span */}{' '}
+							{/* key={element.name} */}{' '}
+							{/* onMouseEnter={() => handleCity(element.image, cityBackground)} */}{' '}
+							{/* onMouseOut={() => handleCityReturn(cityBackground)}> */}{' '}
+							{/* {element.name} */} {/* </span> */} {/* ))} */} {/* </div> */}{' '}
+						</div>{' '}
+					</div>{' '}
+				</div>{' '}
+			</div>{' '}
 		</div>
 	);
 };

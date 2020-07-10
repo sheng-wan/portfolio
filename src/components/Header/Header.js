@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { withRouter, Link } from 'react-router-dom';
 import Menu from '../Menu/Menu';
 import './Header.scss';
+import logob from '../../images/logo-blue.png';
 
 const Header = ({ history }) => {
 	// state for menu toggle status
@@ -16,7 +17,10 @@ const Header = ({ history }) => {
 	// useEffect listening for page changes
 	useEffect(() => {
 		history.listen(() => {
-			setMenuState({ clicked: false, opened: 'Menu' });
+			setMenuState({
+				clicked: false,
+				opened: 'Menu'
+			});
 		});
 	}, [history]);
 
@@ -57,18 +61,20 @@ const Header = ({ history }) => {
 				<div className='header-wrapper'>
 					<div className='header-inner-header'>
 						<div className='header-logo'>
-							<Link to='/'>WAN SHENG</Link>
-						</div>
+							<Link to='/'>
+								<img className='logo' src={logob} alt='WAN SHENG' />
+							</Link>{' '}
+						</div>{' '}
 						<div className='header-menu'>
 							<button disabled={disabledState} onClick={handleToggle}>
 								{' '}
 								{menuState.opened}{' '}
-							</button>
-						</div>
-					</div>
-				</div>
-			</div>
-			<Menu menuState={menuState} />
+							</button>{' '}
+						</div>{' '}
+					</div>{' '}
+				</div>{' '}
+			</div>{' '}
+			<Menu menuState={menuState} />{' '}
 		</header>
 	);
 };
