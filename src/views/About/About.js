@@ -1,5 +1,4 @@
 import React from 'react';
-import './About.scss';
 import { AboutMe } from '../../components/about_components/AboutMe';
 import Timeline from '../../components/about_components/Timeline';
 import Skills from '../../components/about_components/Skills';
@@ -11,7 +10,7 @@ const About = () => {
 	});
 
 	return (
-		<div className='container'>
+		<div className='container my-3'>
 			<AboutMe />
 			<Skills />
 			<Timeline />

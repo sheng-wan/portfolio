@@ -27,11 +27,15 @@ export const AboutMe = () => (
 						aliquip ex ea commodo consequat.
 					</p>
 					<div className='row'>
-						<button className='btn btn-lg btn-outline-primary ml-3 mr-4'>
+						<button className='btn-about btn btn-lg btn-outline-primary ml-3 mr-4'>
 							my works
 						</button>
-						<button className='btn btn-lg btn-primary mr-4'>resume</button>
-						<button className='btn btn-lg btn-secondary'>contact me</button>
+						<button className='btn-about btn btn-lg btn-secondary mr-4'>
+							resume
+						</button>
+						<button className='btn-about btn btn-lg btn-primary'>
+							contact me
+						</button>
 					</div>
 				</div>
 			</div>

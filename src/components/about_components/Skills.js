@@ -22,6 +22,8 @@ import react from '../../images/skills-icons/react.png';
 import sass from '../../images/skills-icons/sass.png';
 import sass2 from '../../images/skills-icons/sass-2.png';
 import ubuntu from '../../images/skills-icons/ubuntu.png';
+import express from '../../images/skills-icons/express.png';
+import socketio from '../../images/skills-icons/socketio.png';
 
 const Skills = () => {
 	return (
@@ -219,18 +221,18 @@ const Skills = () => {
 				</div>
 				<div className='col-6 col-sm-3 col-md-2 skills-box'>
 					<div className='skills-img-box mx-auto d-flex align-items-center justify-content-center'>
-						<img src={python} alt='' className='skills-img' />
+						<img src={express} alt='' className='skills-img' />
 					</div>
 					<h5 className='text-center mt-2 pb-2 d-flex flex-column align-items-center position-relative'>
-						Python
+						Express.js
 					</h5>
 				</div>
 				<div className='col-6 col-sm-3 col-md-2 skills-box'>
 					<div className='skills-img-box mx-auto d-flex align-items-center justify-content-center'>
-						<img src={react} alt='' className='skills-img' />
+						<img src={socketio} alt='' className='skills-img' />
 					</div>
 					<h5 className='text-center mt-2 pb-2 d-flex flex-column align-items-center position-relative'>
-						React.js
+						Socket.io
 					</h5>
 				</div>
 			</div>
