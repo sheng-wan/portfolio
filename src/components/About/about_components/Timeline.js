@@ -8,20 +8,25 @@ const Timeline = () => {
 
 	return (
 		<div className='container mb-5'>
-			<h1 className='h1-timeline text-center text-primary mb-5 pb-2 position-relative'>
+			<h1
+				id='timeline-heading'
+				className='text-center text-primary mb-5 pb-2 position-relative'
+			>
 				my timeline
 			</h1>
-			<div className='timeline-wrapper'>
-				<ul className='timeline-ul'>
-					<li className='timeline-li'>
+			<div id='timeline-wrapper' className='position-relative'>
+				<ul id='timeline-ul' className='p-0 m-0 list-unstyled'>
+					<li id='timeline-li'>
 						<div
-							className='timeline-content'
+							className='timeline-box pb-3'
 							data-aos='fade-right'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h3 className='timeline-h3'>habitasse platea dictumst quisque</h3>
-							<p className='timeline-p'>
+							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
+								habitasse platea dictumst quisque
+							</h4>
+							<p className='timeline-desc pb-0 my-2'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
@@ -29,23 +34,28 @@ const Timeline = () => {
 							</p>
 						</div>
 						<div
-							className='timeline-time'
+							id='timeline-capsule'
+							className='position-absolute m-0 bg-primary text-white'
 							data-aos='fade-right'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h4 className='timeline-h4'>November 2020</h4>
+							<h4 id='timeline-datetime' className='m-0 p-0'>
+								November 2020
+							</h4>
 						</div>
 					</li>
-					<li className='timeline-li'>
+					<li id='timeline-li'>
 						<div
-							className='timeline-content'
+							className='timeline-box pb-3'
 							data-aos='fade-left'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h3 className='timeline-h3'>habitasse platea dictumst quisque</h3>
-							<p className='timeline-p'>
+							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
+								habitasse platea dictumst quisque
+							</h4>
+							<p className='timeline-desc pb-0 my-2'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
@@ -53,23 +63,28 @@ const Timeline = () => {
 							</p>
 						</div>
 						<div
-							className='timeline-time'
+							id='timeline-capsule'
+							className='position-absolute m-0 bg-primary text-white'
 							data-aos='fade-left'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h4 className='timeline-h4'>November 2020</h4>
+							<h4 id='timeline-datetime' className='m-0 p-0'>
+								November 2020
+							</h4>
 						</div>
 					</li>
-					<li className='timeline-li'>
+					<li id='timeline-li'>
 						<div
-							className='timeline-content'
+							className='timeline-box pb-3'
 							data-aos='fade-right'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h3 className='timeline-h3'>habitasse platea dictumst quisque</h3>
-							<p className='timeline-p'>
+							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
+								habitasse platea dictumst quisque
+							</h4>
+							<p className='timeline-desc pb-0 my-2'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
@@ -77,23 +92,28 @@ const Timeline = () => {
 							</p>
 						</div>
 						<div
-							className='timeline-time'
+							id='timeline-capsule'
+							className='position-absolute m-0 bg-primary text-white'
 							data-aos='fade-right'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h4 className='timeline-h4'>November 2020</h4>
+							<h4 id='timeline-datetime' className='m-0 p-0'>
+								November 2020
+							</h4>
 						</div>
 					</li>
-					<li className='timeline-li'>
+					<li id='timeline-li'>
 						<div
-							className='timeline-content'
+							className='timeline-box pb-3'
 							data-aos='fade-left'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h3 className='timeline-h3'>habitasse platea dictumst quisque</h3>
-							<p className='timeline-p'>
+							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
+								habitasse platea dictumst quisque
+							</h4>
+							<p className='timeline-desc pb-0 my-2'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
@@ -101,23 +121,28 @@ const Timeline = () => {
 							</p>
 						</div>
 						<div
-							className='timeline-time'
+							id='timeline-capsule'
+							className='position-absolute m-0 bg-primary text-white'
 							data-aos='fade-left'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h4 className='timeline-h4'>November 2020</h4>
+							<h4 id='timeline-datetime' className='m-0 p-0'>
+								November 2020
+							</h4>
 						</div>
 					</li>
-					<li className='timeline-li'>
+					<li id='timeline-li'>
 						<div
-							className='timeline-content'
+							className='timeline-box pb-3'
 							data-aos='fade-right'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h3 className='timeline-h3'>habitasse platea dictumst quisque</h3>
-							<p className='timeline-p'>
+							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
+								habitasse platea dictumst quisque
+							</h4>
+							<p className='timeline-desc pb-0 my-2'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
@@ -125,23 +150,28 @@ const Timeline = () => {
 							</p>
 						</div>
 						<div
-							className='timeline-time'
+							id='timeline-capsule'
+							className='position-absolute m-0 bg-primary text-white'
 							data-aos='fade-right'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h4 className='timeline-h4'>November 2020</h4>
+							<h4 id='timeline-datetime' className='m-0 p-0'>
+								November 2020
+							</h4>
 						</div>
 					</li>
-					<li className='timeline-li'>
+					<li id='timeline-li'>
 						<div
-							className='timeline-content'
+							className='timeline-box pb-3'
 							data-aos='fade-left'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h3 className='timeline-h3'>habitasse platea dictumst quisque</h3>
-							<p className='timeline-p'>
+							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
+								habitasse platea dictumst quisque
+							</h4>
+							<p className='timeline-desc pb-0 my-2'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua.
 								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
@@ -149,12 +179,15 @@ const Timeline = () => {
 							</p>
 						</div>
 						<div
-							className='timeline-time'
+							id='timeline-capsule'
+							className='position-absolute m-0 bg-primary text-white'
 							data-aos='fade-left'
 							data-aos-duration='1000'
 							data-aos-once='true'
 						>
-							<h4 className='timeline-h4'>November 2020</h4>
+							<h4 id='timeline-datetime' className='m-0 p-0'>
+								November 2020
+							</h4>
 						</div>
 					</li>
 

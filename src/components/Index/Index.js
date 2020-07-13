@@ -4,14 +4,19 @@ import './Index.scss';
 
 const Index = () => {
 	return (
-		<div className='container-fluid position-absolute h-100 d-flex align-items-center'>
+		<div
+			id='index-container'
+			className='container-fluid position-absolute h-100 d-flex align-items-center'
+		>
 			<div className='container pl-4'>
-				<h1 className='index-title-1 text-white'>
+				<h1 id='index-title-1' className='text-white'>
 					Hi, I'm <span className='text-primary'>W</span>an{' '}
 					<span className='text-primary'>S</span>heng
 				</h1>
-				<h4 className='index-title-2 text-light'>Full Stack Web Developer</h4>
-				<h4 className='index-title-3 text-dark'>
+				<h4 id='index-title-2' className='text-light'>
+					Full Stack Web Developer
+				</h4>
+				<h4 id='index-title-3' className='text-dark'>
 					<Typical
 						loop={Infinity}
 						wrapper='b'

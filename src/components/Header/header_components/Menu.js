@@ -55,22 +55,31 @@ const Menu = ({ menuState }) => {
 	return (
 		<div
 			ref={(element) => (menuLayer = element)}
-			className='menu-hamburger-menu position-fixed'
+			id='menu-hamburger-menu'
+			className='position-fixed w-100 h-100'
 		>
 			<div
 				ref={(element) => (reveal1 = element)}
-				className='menu-secondary-background-color  position-fixed'
+				id='menu-secondary-background-color'
+				className='position-fixed'
 			></div>{' '}
 			<div
 				ref={(element) => (reveal2 = element)}
-				className='menu-layer position-relative bg-primary'
+				id='menu-layer'
+				className='position-relative bg-primary'
 			>
 				<div className='container h-100'>
-					<div className='menu-wrapper d-flex align-items-center position-relative'>
+					<div
+						id='menu-wrapper'
+						className='d-flex align-items-center position-relative'
+					>
 						{/* <div className='menu-links d-flex align-self-center'> */}
 						<nav className='d-block'>
-							<ul className='text-left p-0 m-0 list-unstyled display-1 position-relative'>
-								<li className='my-2'>
+							<ul
+								id='menu-ul'
+								className='text-left p-0 m-0 list-unstyled display-1 position-relative'
+							>
+								<li id='menu-li' className='my-2'>
 									<Link
 										onMouseEnter={(e) => navHoverIn(e)}
 										onMouseOut={(e) => navHoverOff(e)}
@@ -80,7 +89,7 @@ const Menu = ({ menuState }) => {
 										Home{' '}
 									</Link>{' '}
 								</li>{' '}
-								<li className='my-2'>
+								<li id='menu-li' className='my-2'>
 									<Link
 										onMouseEnter={(e) => navHoverIn(e)}
 										onMouseOut={(e) => navHoverOff(e)}
@@ -90,7 +99,7 @@ const Menu = ({ menuState }) => {
 										About{' '}
 									</Link>{' '}
 								</li>{' '}
-								<li className='my-2'>
+								<li id='menu-li' className='my-2'>
 									<Link
 										onMouseEnter={(e) => navHoverIn(e)}
 										onMouseOut={(e) => navHoverOff(e)}
@@ -100,7 +109,7 @@ const Menu = ({ menuState }) => {
 										Projects{' '}
 									</Link>{' '}
 								</li>{' '}
-								<li className='my-2'>
+								<li id='menu-li' className='my-2'>
 									<Link
 										onMouseEnter={(e) => navHoverIn(e)}
 										onMouseOut={(e) => navHoverOff(e)}

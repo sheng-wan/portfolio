@@ -1,6 +1,6 @@
 @import '../../custom.scss';
 
-.container-fluid {
+#index-container {
   top: 0;
   left: 0;
   // background-image: url("../../images/mountains_forest_clouds_155467_2560x1440.jpg");
@@ -13,33 +13,39 @@
 
 }
 
-.index-title-1 {
+#index-title-1 {
   font-size: 5rem;
   font-weight: 400;
+  transition: 0.5s;
 }
 
-.index-title-2 {
+#index-title-2 {
   font-size: 2.5rem;
   font-weight: 300;
+  transition: 0.5s;
 }
 
-.index-title-3 {
+#index-title-3 {
   font-size: 2.5rem;
   font-weight: 400;
+  transition: 0.5s;
 }
 
 // RESPONSIVENESS
 @media(max-width:992px) {
-  .index-title-1 {
+  #index-title-1 {
     font-size: 4rem;
+    transition: 0.5s;
   }
 
-  .index-title-2 {
+  #index-title-2 {
     font-size: 2rem;
+    transition: 0.5s;
   }
 
-  .index-title-3 {
+  #index-title-3 {
     font-size: 2rem;
+    transition: 0.5s;
   }
 }
 

@@ -9,7 +9,7 @@ const Header = ({ history }) => {
 	const [menuState, setMenuState] = useState({
 		inital: false,
 		clicked: null,
-		opened: 'Menu',
+		opened: 'MENU',
 	});
 	// state for disabled menu button
 	const [disabledState, setDisabledState] = useState(false);
@@ -19,7 +19,7 @@ const Header = ({ history }) => {
 		history.listen(() => {
 			setMenuState({
 				clicked: false,
-				opened: 'Menu',
+				opened: 'MENU',
 			});
 		});
 	}, [history]);
@@ -31,18 +31,18 @@ const Header = ({ history }) => {
 			setMenuState({
 				inital: null,
 				clicked: true,
-				opened: 'Close',
+				opened: 'CLOSE',
 			});
 		} else if (menuState.clicked === true) {
 			setMenuState({
 				clicked: !menuState.clicked,
-				opened: 'Menu',
+				opened: 'MENU',
 			});
 			// document.getElementByClassName('header-menu').classList.add('open');
 		} else if (menuState.clicked === false) {
 			setMenuState({
 				clicked: !menuState.clicked,
-				opened: 'Close',
+				opened: 'CLOSE',
 			});
 		}
 	};
@@ -59,15 +59,16 @@ const Header = ({ history }) => {
 		<header>
 			<div className='container'>
 				<div className='header-wrapper'>
-					<div className='header-inner-header'>
-						<div className='header-logo'>
+					<div id='header-inner-header'>
+						<div id='header-logo'>
 							<Link to='/'>
-								<img className='logo' src={logob} alt='WAN SHENG' />
+								<img id='logo' src={logob} alt='WAN SHENG' />
 							</Link>{' '}
 						</div>{' '}
-						<div className='header-menu'>
+						<div id='header-menu'>
 							<button
-								className='btn btn-outline-dark'
+								id='menu-btn'
+								className='btn btn-secondary text-white'
 								disabled={disabledState}
 								onClick={handleToggle}
 							>

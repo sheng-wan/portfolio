@@ -9,7 +9,10 @@ const Intro = () => {
 	return (
 		<>
 			<div className='container mb-5'>
-				<h1 className='h1-about-me text-center text-primary my-4 pb-2 position-relative'>
+				<h1
+					id='about-me-heading'
+					className='text-center text-primary my-4 pb-2 position-relative'
+				>
 					{' '}
 					about me{' '}
 				</h1>{' '}
@@ -42,7 +45,7 @@ const Intro = () => {
 						</div>{' '}
 					</div>{' '}
 					<div className='col-md-8'>
-						<div className='about-me-p'>
+						<div>
 							<p className='lead'>
 								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 								eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut
@@ -55,21 +58,24 @@ const Intro = () => {
 								enim ad minim veniam, quis nostrud exercitation ullamco laboris
 								nisi ut aliquip ex ea commodo consequat.{' '}
 							</p>{' '}
-							<div className='row ' id='btn-row'>
+							<div id='btn-row' className='row '>
 								<a
+									id='about-btn about-btn-main'
 									href='/projects'
-									className='col-xl-3 col-lg-12 about-btn about-btn-main btn btn-lg btn-outline-primary mx-2 mb-2'
+									className='col-xl-3 col-lg-12 btn btn-lg btn-outline-primary mx-2 mb-2'
 								>
 									my works{' '}
 								</a>{' '}
 								<a
+									id='about-btn about-btn-main'
 									href='#'
-									className='col-xl-3 col-lg-12 about-btn about-btn-main btn btn-lg btn-secondary mx-2 mb-2'
+									className='col-xl-3 col-lg-12 btn btn-lg btn-secondary mx-2 mb-2'
 								>
 									my resume{' '}
 								</a>{' '}
 								<button
-									className='col-xl-3 col-lg-12 about-btn btn btn-lg btn-primary mx-2 mb-2'
+									id='about-btn about-btn-main'
+									className='col-xl-3 col-lg-12 btn btn-lg btn-primary mx-2 mb-2'
 									onClick={() => setModalShow(true)}
 								>
 									contact me{' '}

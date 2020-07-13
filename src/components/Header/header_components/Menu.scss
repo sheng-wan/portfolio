@@ -1,16 +1,14 @@
 @import '../../../custom.scss';
 
-.menu-hamburger-menu {
+#menu-hamburger-menu {
   display: none;
   z-index: 9;
   top: 0;
   left: 0;
   right: 0;
-  height: 100%;
-  width: 100%;
 
-  .menu-secondary-background-color {
-    background: $black;
+  #menu-secondary-background-color {
+    background: $secondary;
     top: 0;
     left: 0;
     right: 0;
@@ -20,14 +18,14 @@
     z-index: -1;
   }
 
-  .menu-layer {
+  #menu-layer {
     height: 100%;
     overflow: hidden;
 
-    ul {
+    #menu-ul {
       font-weight: 700;
 
-      li {
+      #menu-li {
         overflow: hidden;
 
         a {
@@ -63,7 +61,7 @@
   nav {
     margin-left: 3%;
 
-    li {
+    #menu-li {
       font-size: 5rem;
       transition: 0.5s;
     }
@@ -72,7 +70,7 @@
 
 // Medium devices (tablets)
 @media(max-width: 992px) {
-  li {
+  #menu-li {
     font-size: 5rem;
     transition: 0.5s;
   }
@@ -80,11 +78,11 @@
 
 // Small devices (landscape phones)
 @media(max-width: 768px) {
-  .menu-wrapper {
+  #menu-wrapper {
     margin: 0 auto;
     transition: 0.5s;
 
-    li {
+    #menu-li {
       text-align: center;
       font-size: 4rem;
       transition: 0.5s;
@@ -94,7 +92,7 @@
 
 // Extra small devices (phones)
 @media(max-width: 576px) {
-  li {
+  #menu-li {
     font-size: 3rem;
     transition: 0.5s;
   }

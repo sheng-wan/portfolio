@@ -2,7 +2,7 @@
 
 // TITLE UNDERLINE
 
-.h1-skills:after {
+#skills-heading:after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -14,7 +14,7 @@
   transition: .5s;
 }
 
-.h1-skills::before {
+#skills-heading::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -29,27 +29,32 @@
 
 // SKILL BOX & SHADOW
 
-.skills-img-box {
+#skills-box {
   width: 90px;
-  height: 90px;
+  margin: 10px 15px;
+}
+
+#skills-img-box {
+  width: 75px;
+  height: 75px;
   position: relative;
   border-radius: 45px;
   transition: .5s;
 }
 
-.skills-img-box:after {
+#skills-img-box:after {
   content: '';
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 90px;
+  height: 75px;
   background: #fdf5ab;
-  border-radius: 45px 45px 5px 45px;
+  border-radius: 40px 40px 8px 40px;
 }
 
-.skills-img {
-  width: 70px;
+#skills-img {
+  width: 55px;
   z-index: 2;
 }
 
@@ -82,11 +87,11 @@ h5:after {
 
 // SKILL BOX HOVER EFFECTS
 
-.skills-box:hover>h5:after,
-.skills-box:hover>h5:before {
+#skills-box:hover>h5:after,
+#skills-box:hover>h5:before {
   width: 35px;
 }
 
-.skills-box:hover .skills-img-box {
+#skills-box:hover #skills-img-box {
   transform: translateY(-10px);
 }
