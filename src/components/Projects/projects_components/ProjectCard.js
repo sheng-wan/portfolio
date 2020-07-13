@@ -4,25 +4,25 @@ import './ProjectCard.scss';
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 // import { faGithub } from '@fortawesome/free-solid-svg-icons';
 
-import stock from '../../images/newyork.webp';
-import wmchat from '../../images/project-thumbnails/wmchat.png';
-import downosaur from '../../images/project-thumbnails/downosaur.webp';
+import stock from '../../../images/newyork.webp';
+import wmchat from '../../../images/project-thumbnails/wmchat.png';
+import downosaur from '../../../images/project-thumbnails/downosaur.webp';
 
-import python from '../../images/skills-icons/python.png';
-import django from '../../images/skills-icons/django.png';
-import html from '../../images/skills-icons/html5.png';
-import javascript from '../../images/skills-icons/javascript.png';
-import css3 from '../../images/skills-icons/css3.png';
-import bootstrap from '../../images/skills-icons/bootstrap.png';
-import sass2 from '../../images/skills-icons/sass-2.png';
-import nginx from '../../images/skills-icons/nginx.png';
-import gunicorn from '../../images/skills-icons/gunicorn.png';
-import aws from '../../images/skills-icons/aws.png';
-import react from '../../images/skills-icons/react.png';
-import node from '../../images/skills-icons/node.png';
-import express from '../../images/skills-icons/express.png';
-import socketio from '../../images/skills-icons/socketio.png';
-import java from '../../images/skills-icons/java.png';
+import python from '../../../images/skills-icons/python.png';
+import django from '../../../images/skills-icons/django.png';
+import html from '../../../images/skills-icons/html5.png';
+import javascript from '../../../images/skills-icons/javascript.png';
+import css3 from '../../../images/skills-icons/css3.png';
+import bootstrap from '../../../images/skills-icons/bootstrap.png';
+import sass2 from '../../../images/skills-icons/sass-2.png';
+import nginx from '../../../images/skills-icons/nginx.png';
+import gunicorn from '../../../images/skills-icons/gunicorn.png';
+import aws from '../../../images/skills-icons/aws.png';
+import react from '../../../images/skills-icons/react.png';
+import node from '../../../images/skills-icons/node.png';
+import express from '../../../images/skills-icons/express.png';
+import socketio from '../../../images/skills-icons/socketio.png';
+import java from '../../../images/skills-icons/java.png';
 
 const ProjectCard = () => (
 	<div className='container mb-5'>
@@ -108,7 +108,7 @@ const ProjectCard = () => (
 			</div>
 		</div>
 
-		<div className='row my-4 d-block align-items-center justify-content-center'>
+		<div className='row my-5 d-block align-items-center justify-content-center'>
 			<div className='project-card mx-auto position-relative'>
 				<div className='project-img position-absolute'>
 					<img
@@ -164,7 +164,7 @@ const ProjectCard = () => (
 			</div>
 		</div>
 
-		<div className='row my-4 d-block align-items-center justify-content-center'>
+		<div className='row my-5 d-block align-items-center justify-content-center'>
 			<div className='project-card mx-auto position-relative'>
 				<div className='project-img position-absolute'>
 					<img

@@ -1,14 +1,11 @@
 import React from 'react';
-// import './App.scss';
-
-import Header from './components/Header/Header';
-
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
-import Home from './views/Home/Home';
-import About from './views/About/About';
-import Projects from './views/Projects/Projects';
-import Contact from './components/Contact/Contact';
+import Header from './components/Header/Header';
+import Index from './components/Index/Index';
+import About from './components/About/About';
+import Projects from './components/Projects/Projects';
+import Blogs from './components/Blogs/Blog';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 
 function App() {
@@ -17,19 +14,16 @@ function App() {
 			<div className='App'>
 				<Header />
 				<div className='container'>
-					<div className='wrapper'>
-						{' '}
-						{/* <div className='home'> */}{' '}
-						<Switch>
-							<Route exact path='/' component={Home} />{' '}
-							<Route exact path='/about' component={About} />{' '}
-							{/* <Route exact path='/about' component={About} />{' '} */}{' '}
-							<Route exact path='/projects' component={Projects} />{' '}
-							<Route exact path='/contact' component={Contact} />{' '}
-							<Route path='*' component={PageNotFound} />{' '}
-						</Switch>{' '}
-						{/* </div>{' '} */}{' '}
-					</div>{' '}
+					{' '}
+					{/* <div className='wrapper'> */}{' '}
+					<Switch>
+						<Route exact path='/' component={Index} />{' '}
+						<Route exact path='/about' component={About} />{' '}
+						<Route exact path='/projects' component={Projects} />{' '}
+						<Route exact path='/blogs' component={Blogs} />{' '}
+						<Route path='*' component={PageNotFound} />{' '}
+					</Switch>{' '}
+					{/* </div>{' '} */}{' '}
 				</div>{' '}
 			</div>{' '}
 		</Router>

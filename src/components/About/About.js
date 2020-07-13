@@ -1,7 +1,7 @@
 import React from 'react';
-import { AboutMe } from '../../components/about_components/AboutMe';
-import Timeline from '../../components/about_components/Timeline';
-import Skills from '../../components/about_components/Skills';
+import Intro from './about_components/Intro';
+import Timeline from './about_components/Timeline';
+import Skills from './about_components/Skills';
 import { addBackToTop } from 'vanilla-back-to-top';
 
 const About = () => {
@@ -11,7 +11,7 @@ const About = () => {
 
 	return (
 		<div className='container my-3'>
-			<AboutMe />
+			<Intro />
 			<Skills />
 			<Timeline />
 		</div>

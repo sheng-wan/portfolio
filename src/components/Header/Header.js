@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { withRouter, Link } from 'react-router-dom';
-import Menu from '../Menu/Menu';
+import Menu from './header_components/Menu';
 import './Header.scss';
 import logob from '../../images/logo-blue.png';
 
@@ -9,7 +9,7 @@ const Header = ({ history }) => {
 	const [menuState, setMenuState] = useState({
 		inital: false,
 		clicked: null,
-		opened: 'Menu'
+		opened: 'Menu',
 	});
 	// state for disabled menu button
 	const [disabledState, setDisabledState] = useState(false);
@@ -19,7 +19,7 @@ const Header = ({ history }) => {
 		history.listen(() => {
 			setMenuState({
 				clicked: false,
-				opened: 'Menu'
+				opened: 'Menu',
 			});
 		});
 	}, [history]);
@@ -31,18 +31,18 @@ const Header = ({ history }) => {
 			setMenuState({
 				inital: null,
 				clicked: true,
-				opened: 'Close'
+				opened: 'Close',
 			});
 		} else if (menuState.clicked === true) {
 			setMenuState({
 				clicked: !menuState.clicked,
-				opened: 'Menu'
+				opened: 'Menu',
 			});
 			// document.getElementByClassName('header-menu').classList.add('open');
 		} else if (menuState.clicked === false) {
 			setMenuState({
 				clicked: !menuState.clicked,
-				opened: 'Close'
+				opened: 'Close',
 			});
 		}
 	};
@@ -66,7 +66,11 @@ const Header = ({ history }) => {
 							</Link>{' '}
 						</div>{' '}
 						<div className='header-menu'>
-							<button disabled={disabledState} onClick={handleToggle}>
+							<button
+								className='btn btn-outline-dark'
+								disabled={disabledState}
+								onClick={handleToggle}
+							>
 								{' '}
 								{menuState.opened}{' '}
 							</button>{' '}
