@@ -27,13 +27,17 @@
 
       #menu-li {
         overflow: hidden;
+        padding-right: 20px;
 
         a {
           color: #fff;
           text-decoration: none;
+          transition: 0.5s;
 
           &:hover {
-            color: $black;
+            color: $secondary;
+            margin-left: 5%;
+            transition: 0.5s;
           }
         }
       }

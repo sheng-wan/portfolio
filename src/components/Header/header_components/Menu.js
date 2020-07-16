@@ -4,11 +4,8 @@ import { Link } from 'react-router-dom';
 import './Menu.scss';
 
 import {
-	staggerText,
 	staggerReveal,
 	// fadeInUp,
-	navHoverIn,
-	navHoverOff,
 	staggerRevealClose,
 } from './MenuAnimation';
 
@@ -18,9 +15,6 @@ const Menu = ({ menuState }) => {
 	let reveal1 = useRef(null);
 	let reveal2 = useRef(null);
 	// let cityBackground = useRef(null);
-	let nav1 = useRef(null);
-	let nav2 = useRef(null);
-	let nav3 = useRef(null);
 
 	useEffect(() => {
 		if (menuState.clicked === false) {
@@ -48,7 +42,6 @@ const Menu = ({ menuState }) => {
 			});
 			staggerReveal(reveal1, reveal2);
 			// fadeInUp(info);
-			staggerText(nav1, nav2, nav3);
 		}
 	}, [menuState]);
 
@@ -73,55 +66,25 @@ const Menu = ({ menuState }) => {
 						id='menu-wrapper'
 						className='d-flex align-items-center position-relative'
 					>
-						{/* <div className='menu-links d-flex align-self-center'> */}
 						<nav className='d-block'>
 							<ul
 								id='menu-ul'
 								className='text-left p-0 m-0 list-unstyled display-1 position-relative'
 							>
 								<li id='menu-li' className='my-2'>
-									<Link
-										onMouseEnter={(e) => navHoverIn(e)}
-										onMouseOut={(e) => navHoverOff(e)}
-										ref={(element) => (nav1 = element)}
-										to='/'
-									>
-										Home{' '}
-									</Link>{' '}
+									<Link to='/'>Home </Link>{' '}
 								</li>{' '}
 								<li id='menu-li' className='my-2'>
-									<Link
-										onMouseEnter={(e) => navHoverIn(e)}
-										onMouseOut={(e) => navHoverOff(e)}
-										ref={(element) => (nav1 = element)}
-										to='/about'
-									>
-										About{' '}
-									</Link>{' '}
+									<Link to='/about'>About </Link>{' '}
 								</li>{' '}
 								<li id='menu-li' className='my-2'>
-									<Link
-										onMouseEnter={(e) => navHoverIn(e)}
-										onMouseOut={(e) => navHoverOff(e)}
-										ref={(element) => (nav2 = element)}
-										to='/projects'
-									>
-										Projects{' '}
-									</Link>{' '}
+									<Link to='/projects'>Projects </Link>{' '}
 								</li>{' '}
 								<li id='menu-li' className='my-2'>
-									<Link
-										onMouseEnter={(e) => navHoverIn(e)}
-										onMouseOut={(e) => navHoverOff(e)}
-										ref={(element) => (nav3 = element)}
-										to='/blogs'
-									>
-										Blogs{' '}
-									</Link>{' '}
+									<Link to='/blogs'>Blogs </Link>{' '}
 								</li>{' '}
 							</ul>{' '}
 						</nav>{' '}
-						{/* </div>{' '} */}
 					</div>{' '}
 				</div>{' '}
 			</div>{' '}
