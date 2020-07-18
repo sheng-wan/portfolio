@@ -1,12 +1,9 @@
 import React from 'react';
 import './ProjectCardDesktop.scss';
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub } from '@fortawesome/free-solid-svg-icons';
-
-import stock from '../../../images/newyork.webp';
-import wmchat from '../../../images/project-thumbnails/wmchat.png';
-import downosaur from '../../../images/project-thumbnails/downosaur.webp';
+import carss from '../../../images/project-covers/carss.webp';
+import wmchat from '../../../images/project-covers/wmchat.webp';
+import downosaur from '../../../images/project-covers/downasaur.webp';
 
 import python from '../../../images/skills-icons/python.png';
 import django from '../../../images/skills-icons/django.png';
@@ -20,9 +17,11 @@ import gunicorn from '../../../images/skills-icons/gunicorn.png';
 import aws from '../../../images/skills-icons/aws.png';
 import react from '../../../images/skills-icons/react.png';
 import node from '../../../images/skills-icons/node.png';
-import express from '../../../images/skills-icons/express.png';
+import express from '../../../images/skills-icons/expressjs.png';
 import socketio from '../../../images/skills-icons/socketio.png';
 import java from '../../../images/skills-icons/java.png';
+import heroku from '../../../images/skills-icons/heroku.png';
+import netlify from '../../../images/skills-icons/netlify.png';
 
 const ProjectCardDesktop = () => (
 	<div className='container mb-5'>
@@ -32,7 +31,7 @@ const ProjectCardDesktop = () => (
 					<img
 						id='project-banner-img-desktop'
 						className='position-absolute'
-						src={stock}
+						src={carss}
 						alt=''
 					/>
 				</div>{' '}
@@ -181,7 +180,6 @@ const ProjectCardDesktop = () => (
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								{/* <FontAwesomeIcon icon={faGithub} /> */}
 								GitHub{' '}
 							</a>{' '}
 							<a
@@ -287,6 +285,28 @@ const ProjectCardDesktop = () => (
 									title='CSS 3'
 								/>
 							</div>{' '}
+							<div className='d-inline'>
+								<img
+									src={heroku}
+									alt=''
+									id='tech-icon-img-desktop'
+									className='mr-2'
+									data-toggle='tooltip'
+									data-placement='top'
+									title='Heroku'
+								/>
+							</div>{' '}
+							<div className='d-inline'>
+								<img
+									src={netlify}
+									alt=''
+									id='tech-icon-img-desktop'
+									className='mr-2'
+									data-toggle='tooltip'
+									data-placement='top'
+									title='Netlify'
+								/>
+							</div>{' '}
 						</div>{' '}
 						<div
 							id='project-buttons-desktop'
@@ -299,7 +319,6 @@ const ProjectCardDesktop = () => (
 								target='_blank'
 								rel='noopener noreferrer'
 							>
-								{/* <FontAwesomeIcon icon={faGithub} /> */}
 								GitHub{' '}
 							</a>{' '}
 							<a

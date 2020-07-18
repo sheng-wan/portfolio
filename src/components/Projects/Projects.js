@@ -5,6 +5,7 @@ import { addBackToTop } from 'vanilla-back-to-top';
 import { useMediaQuery } from 'react-responsive';
 
 import './Project.scss';
+import SocialBar from '../SocialBar/SocialBar';
 
 const Projects = () => {
 	addBackToTop({
@@ -21,8 +22,8 @@ const Projects = () => {
 			>
 				my works{' '}
 			</h1>
-
 			{isTabletOrMobile ? <ProjectCardMobile /> : <ProjectCardDesktop />}
+			<SocialBar />
 		</div>
 	);
 };

@@ -24,13 +24,12 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
-								habitasse platea dictumst quisque
+								Graduated from College
 							</h4>
 							<p className='timeline-desc pb-0 my-2'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
-								mauris vitae ultricies leo.
+								Bachelor of Science with Cum Laude in Business Administration
+								concentrating Entrepreneurship, that was my final score as a
+								college student in the State University of New York at Albany.
 							</p>
 						</div>
 						<div
@@ -41,7 +40,7 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-datetime' className='m-0 p-0'>
-								November 2020
+								May 6th 2013
 							</h4>
 						</div>
 					</li>
@@ -53,13 +52,12 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
-								habitasse platea dictumst quisque
+								Started a School Business
 							</h4>
 							<p className='timeline-desc pb-0 my-2'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
-								mauris vitae ultricies leo.
+								I was lucky enough to get an opportunity to start a venture in
+								China. The business was a vocational school. My new role was the
+								VP of the school, managing daily operations.
 							</p>
 						</div>
 						<div
@@ -70,7 +68,7 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-datetime' className='m-0 p-0'>
-								November 2020
+								June 2013
 							</h4>
 						</div>
 					</li>
@@ -82,13 +80,13 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
-								habitasse platea dictumst quisque
+								Moved to Los Angeles
 							</h4>
 							<p className='timeline-desc pb-0 my-2'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
-								mauris vitae ultricies leo.
+								For some reason, I had to come back to the U.S. The beautiful
+								Los Angeles was my destination. I started to work for a startup
+								ecommerce & tech company that designs and sells streaming
+								karaoke machines as the CEO's assistant.
 							</p>
 						</div>
 						<div
@@ -99,7 +97,7 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-datetime' className='m-0 p-0'>
-								November 2020
+								July 2015
 							</h4>
 						</div>
 					</li>
@@ -111,13 +109,12 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
-								habitasse platea dictumst quisque
+								Ran It as a Manager
 							</h4>
 							<p className='timeline-desc pb-0 my-2'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
-								mauris vitae ultricies leo.
+								After a year's hard working, I was promoted to the ecommerce
+								operations manager of the company, in charge of ecommerce
+								operations, marketing, hiring, product and process improvement.
 							</p>
 						</div>
 						<div
@@ -128,7 +125,7 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-datetime' className='m-0 p-0'>
-								November 2020
+								JANUARY 2017
 							</h4>
 						</div>
 					</li>
@@ -140,13 +137,14 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
-								habitasse platea dictumst quisque
+								Became a Web Developer
 							</h4>
 							<p className='timeline-desc pb-0 my-2'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
-								mauris vitae ultricies leo.
+								After years of business experience, I finally decided to pursuit
+								my passion, becoming a developer. I joined a coding bootcamp to
+								help me make my first step. While I was there, I have learned
+								both front and back end web development and achieved top score
+								for all courseworks.
 							</p>
 						</div>
 						<div
@@ -157,7 +155,7 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-datetime' className='m-0 p-0'>
-								November 2020
+								November 2019
 							</h4>
 						</div>
 					</li>
@@ -169,13 +167,12 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-subtitle' className='m-0 p-0 text-primary'>
-								habitasse platea dictumst quisque
+								Prepared and Ready
 							</h4>
 							<p className='timeline-desc pb-0 my-2'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.
-								Adipiscing at in tellus integer. Montes nascetur ridiculus mus
-								mauris vitae ultricies leo.
+								Now, I have masted my fundamental building blocks of web and
+								software development. I am a self-efficient full stack
+								developer, awaiting any challenges
 							</p>
 						</div>
 						<div
@@ -186,7 +183,7 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-datetime' className='m-0 p-0'>
-								November 2020
+								PRESENT
 							</h4>
 						</div>
 					</li>

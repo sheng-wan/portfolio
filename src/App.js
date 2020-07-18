@@ -7,6 +7,7 @@ import About from './components/About/About';
 import Projects from './components/Projects/Projects';
 import Blogs from './components/Blogs/Blog';
 import PageNotFound from './components/PageNotFound/PageNotFound';
+import SocialBar from './components/SocialBar/SocialBar';
 
 function App() {
 	return (
@@ -14,8 +15,6 @@ function App() {
 			<div className='App'>
 				<Header />
 				<div className='container'>
-					{' '}
-					{/* <div className='wrapper'> */}{' '}
 					<Switch>
 						<Route exact path='/' component={Index} />{' '}
 						<Route exact path='/about' component={About} />{' '}
@@ -23,7 +22,7 @@ function App() {
 						<Route exact path='/blogs' component={Blogs} />{' '}
 						<Route path='*' component={PageNotFound} />{' '}
 					</Switch>{' '}
-					{/* </div>{' '} */}{' '}
+					{/* <SocialBar /> */}
 				</div>{' '}
 			</div>{' '}
 		</Router>

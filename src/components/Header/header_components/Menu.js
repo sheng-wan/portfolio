@@ -1,20 +1,15 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { Link } from 'react-router-dom';
+import { staggerReveal, fadeInUp, staggerRevealClose } from './MenuAnimation';
 import './Menu.scss';
-
-import {
-	staggerReveal,
-	// fadeInUp,
-	staggerRevealClose,
-} from './MenuAnimation';
 
 const Menu = ({ menuState }) => {
 	// variables of our dom nodes
 	let menuLayer = useRef(null);
 	let reveal1 = useRef(null);
 	let reveal2 = useRef(null);
-	// let cityBackground = useRef(null);
+	// let info = useRef(null);
 
 	useEffect(() => {
 		if (menuState.clicked === false) {
@@ -72,19 +67,31 @@ const Menu = ({ menuState }) => {
 								className='text-left p-0 m-0 list-unstyled display-1 position-relative'
 							>
 								<li id='menu-li' className='my-2'>
-									<Link to='/'>Home </Link>{' '}
+									<Link to='/'> Home </Link>{' '}
 								</li>{' '}
 								<li id='menu-li' className='my-2'>
-									<Link to='/about'>About </Link>{' '}
+									<Link to='/about'> About </Link>{' '}
 								</li>{' '}
 								<li id='menu-li' className='my-2'>
-									<Link to='/projects'>Projects </Link>{' '}
+									<Link to='/projects'> Projects </Link>{' '}
 								</li>{' '}
 								<li id='menu-li' className='my-2'>
-									<Link to='/blogs'>Blogs </Link>{' '}
+									<Link to='/blogs'> Blogs </Link>{' '}
 								</li>{' '}
 							</ul>{' '}
 						</nav>{' '}
+						{/* <div
+							ref={(el) => (info = el)}
+							id='info'
+							className='text-white  align-self-center w-25 ml-auto'
+						>
+							<h3> Quote of the Day </h3>{' '}
+							<p>
+								{' '}
+								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+								eiusmod tempor incididunt ut labore et dolore magna aliqua.{' '}
+							</p>{' '}
+						</div>{' '} */}
 					</div>{' '}
 				</div>{' '}
 			</div>{' '}

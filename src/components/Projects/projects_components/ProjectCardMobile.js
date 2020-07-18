@@ -1,13 +1,9 @@
 import React from 'react';
 import './ProjectCardMobile.scss';
 
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-// import { faGithub } from '@fortawesome/free-solid-svg-icons';
-
-import stock from '../../../images/newyork.webp';
-// import stock from '../../../images/2.png';
-import wmchat from '../../../images/project-thumbnails/wmchat.png';
-import downosaur from '../../../images/project-thumbnails/downosaur.webp';
+import carss from '../../../images/project-covers/carss.webp';
+import wmchat from '../../../images/project-covers/wmchat.webp';
+import downosaur from '../../../images/project-covers/downasaur.webp';
 
 import python from '../../../images/skills-icons/python.png';
 import django from '../../../images/skills-icons/django.png';
@@ -21,9 +17,11 @@ import gunicorn from '../../../images/skills-icons/gunicorn.png';
 import aws from '../../../images/skills-icons/aws.png';
 import react from '../../../images/skills-icons/react.png';
 import node from '../../../images/skills-icons/node.png';
-import express from '../../../images/skills-icons/express.png';
+import express from '../../../images/skills-icons/expressjs.png';
 import socketio from '../../../images/skills-icons/socketio.png';
 import java from '../../../images/skills-icons/java.png';
+import heroku from '../../../images/skills-icons/heroku.png';
+import netlify from '../../../images/skills-icons/netlify.png';
 
 const ProjectCardMobile = () => (
 	<div className='container mb-5'>
@@ -32,7 +30,7 @@ const ProjectCardMobile = () => (
 				<img
 					id='project-banner-img-mobile'
 					className='position-absolute'
-					src={stock}
+					src={carss}
 					alt=''
 				/>
 			</div>
@@ -59,6 +57,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Python 3'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -67,6 +68,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Django 3'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -75,6 +79,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='HTML 5'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -83,6 +90,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='JavaScript'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -91,6 +101,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='CSS 3'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -99,6 +112,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Bootsrap 4'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -107,6 +123,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Sass'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -115,6 +134,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Nginx'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -123,6 +145,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Gunicorn'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -131,6 +156,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='AWS'
 							/>
 						</div>{' '}
 					</div>{' '}
@@ -142,7 +170,6 @@ const ProjectCardMobile = () => (
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							{/* <FontAwesomeIcon icon={faGithub} /> */}
 							GitHub{' '}
 						</a>{' '}
 						<a
@@ -192,6 +219,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='React.js'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -200,6 +230,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Node.js'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -208,6 +241,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Express.js'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -216,6 +252,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Socket.io'
 							/>
 						</div>{' '}
 						<div className='d-inline'>
@@ -224,6 +263,31 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='CSS 3'
+							/>
+						</div>{' '}
+						<div className='d-inline'>
+							<img
+								src={heroku}
+								alt=''
+								id='tech-icon-img-mobile'
+								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Heroku'
+							/>
+						</div>{' '}
+						<div className='d-inline'>
+							<img
+								src={netlify}
+								alt=''
+								id='tech-icon-img-mobile'
+								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Netlify'
 							/>
 						</div>{' '}
 					</div>{' '}
@@ -235,7 +299,6 @@ const ProjectCardMobile = () => (
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							{/* <FontAwesomeIcon icon={faGithub} /> */}
 							GitHub{' '}
 						</a>{' '}
 						<a
@@ -284,6 +347,9 @@ const ProjectCardMobile = () => (
 								alt=''
 								id='tech-icon-img-mobile'
 								className='mr-2'
+								data-toggle='tooltip'
+								data-placement='top'
+								title='Java'
 							/>
 						</div>{' '}
 					</div>{' '}
@@ -295,7 +361,6 @@ const ProjectCardMobile = () => (
 							target='_blank'
 							rel='noopener noreferrer'
 						>
-							{/* <FontAwesomeIcon icon={faGithub} /> */}
 							GitHub{' '}
 						</a>{' '}
 					</div>

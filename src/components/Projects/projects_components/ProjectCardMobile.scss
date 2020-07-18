@@ -2,7 +2,7 @@
 
 #project-card-mobile {
   height: 520px;
-  background: $primary;
+  background: $secondary;
   box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
 
   #project-banner-mobile {
@@ -82,7 +82,7 @@
   transition: 0.5s;
 }
 
-@media (max-width:460px) {
+@media (max-width:500px) {
   #project-card-mobile {
     height: 600px;
   }

@@ -1,10 +1,10 @@
-import React, { useState } from 'react';
-import placeholder from '../../../images/2.png';
+import React from 'react';
+import placeholder from '../../../images/logo-yellow.png';
 import './Intro.scss';
-import MyModal from './MyModal';
+// import MyModal from './MyModal';
 
 const Intro = () => {
-	const [modalShow, setModalShow] = useState(false);
+	// const [modalShow, setModalShow] = useState(false);
 
 	return (
 		<>
@@ -31,32 +31,33 @@ const Intro = () => {
 								my works{' '}
 							</a>{' '}
 							<a
-								href='#'
+								href='https://1drv.ms/b/s!AlxdLtWJy59D0V8_p8Cr7qY618mP'
 								className='d-lg-none col-lg-12 about-btn btn btn-lg btn-secondary mx-4 mb-2'
 							>
 								my resume{' '}
 							</a>{' '}
-							<button
+							<a
+								href='#timeline-heading'
 								className='d-lg-none col-lg-12 about-btn btn btn-lg btn-primary mx-4 mb-2'
-								onClick={() => setModalShow(true)}
 							>
-								contact me{' '}
-							</button>{' '}
+								experience{' '}
+							</a>{' '}
 						</div>{' '}
 					</div>{' '}
 					<div className='col-md-8'>
 						<div>
 							<p className='lead'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut
-								enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat.{' '}
+								Greetings, I am Wan Sheng, a self-efficient Full-Stack Web
+								Developer, specializing in JavaScript, React.js, Python, Django,
+								CSS and more.
 							</p>{' '}
 							<p className='lead'>
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut
-								enim ad minim veniam, quis nostrud exercitation ullamco laboris
-								nisi ut aliquip ex ea commodo consequat.{' '}
+								Although most of my past experience are business operation and
+								ecommerce related, software development has always been my
+								passion. Moreover, I think it prepares me to be a better web
+								developer since I know more about what the clients see and their
+								logic. If you like my works, or interested in me, feel free to
+								reach me out. I am willing to take any coding challenges.
 							</p>{' '}
 							<div id='btn-row' className='row '>
 								<a
@@ -68,24 +69,24 @@ const Intro = () => {
 								</a>{' '}
 								<a
 									id='about-btn about-btn-main'
-									href='#'
+									href='https://1drv.ms/b/s!AlxdLtWJy59D0V8_p8Cr7qY618mP'
 									className='col-xl-3 col-lg-12 btn btn-lg btn-secondary mx-2 mb-2'
 								>
 									my resume{' '}
 								</a>{' '}
-								<button
+								<a
 									id='about-btn about-btn-main'
+									href='#timeline-heading'
 									className='col-xl-3 col-lg-12 btn btn-lg btn-primary mx-2 mb-2'
-									onClick={() => setModalShow(true)}
 								>
-									contact me{' '}
-								</button>{' '}
+									experience{' '}
+								</a>{' '}
 							</div>{' '}
 						</div>{' '}
 					</div>{' '}
 				</div>{' '}
 			</div>{' '}
-			<MyModal show={modalShow} onHide={() => setModalShow(false)} />{' '}
+			{/* <MyModal show={modalShow} onHide={() => setModalShow(false)} />{' '} */}
 		</>
 	);
 };

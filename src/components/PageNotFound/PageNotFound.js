@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
+import Typical from 'react-typical';
 import './PageNotFound.scss';
 
 import nyancat from '../../images/nyancat.gif';
@@ -11,10 +12,14 @@ const PageNotFound = () => {
 			id='pnf-container'
 			className='container-fluid position-absolute bg-primary h-100 p-0'
 		>
-			{/* <div className='pnf-wrapper position-absolute h-100 w-100 p-0 m-0 d-flex align-items-center'> */}
 			<div id='pnf-title' className='row text-white text-center p-0 d-block '>
-				<h3 className='display-4'>CODE 404:</h3>
-				<h3 className='display-5'>You have gone above and beyond</h3>
+				<h1 className='h1'>CODE 404:</h1>
+				<Typical
+					className='h2'
+					loop={Infinity}
+					wrapper='b'
+					steps={['You have gone above and beyond', 2000]}
+				/>
 			</div>
 			<div id='long-cat' className='row p-0'>
 				<img id='rainbow' className='' src={rainbow} alt='rainbow' />
