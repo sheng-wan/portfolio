@@ -3,7 +3,6 @@
 #index-container {
 	top: 0;
 	left: 0;
-	// background-image: url('../../images/index-cover.jpg');
 	background-image: url('../../images/index-cover.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -30,7 +29,6 @@
 	transition: 0.5s;
 }
 
-// RESPONSIVENESS
 @media (max-width: 992px) {
 	#index-title-1 {
 		font-size: 4rem;

@@ -9,15 +9,10 @@ header {
     justify-content: center;
     max-width: 1110px;
     padding: 0 15px;
-    margin: auto;
 
     #header-inner-header {
-      position: relative;
       z-index: 10;
       height: 100px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
 
       #header-logo a {
         font-weight: 700;

@@ -70,12 +70,10 @@
   }
 
   #sticky-icon-bars .icon-bar:hover {
-  // transform: translate(0px, 0px);
-  // transition: 0.5s;
 
-  #icon-img {
-    transform: rotate(360deg);
-    transition: 1s;
+    #icon-img {
+      transform: rotate(360deg);
+      transition: 1s;
+    }
   }
-}
 }

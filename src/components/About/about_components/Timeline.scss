@@ -1,7 +1,5 @@
 @import '../../../custom.scss';
 
-// TITLE UNDERLINE
-
 #timeline-heading:after {
   content: '';
   position: absolute;
@@ -26,8 +24,6 @@
   transition: .5s;
 }
 
-// ----
-
 #timeline-wrapper::before {
   content: '';
   position: absolute;
@@ -51,7 +47,6 @@
 #timeline-datetime {
   font-size: 14px;
 }
-
 
 .clear {
   clear: both;

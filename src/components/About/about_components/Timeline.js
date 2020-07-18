@@ -40,7 +40,7 @@ const Timeline = () => {
 							data-aos-once='true'
 						>
 							<h4 id='timeline-datetime' className='m-0 p-0'>
-								May 6th 2013
+								May 2013
 							</h4>
 						</div>
 					</li>
@@ -187,7 +187,6 @@ const Timeline = () => {
 							</h4>
 						</div>
 					</li>
-
 					<div className='clear'></div>
 				</ul>
 			</div>

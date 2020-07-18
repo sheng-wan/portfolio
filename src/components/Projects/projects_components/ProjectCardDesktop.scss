@@ -1,7 +1,5 @@
 @import '../../../custom.scss';
 
-// TITLE UNDERLINE
-
 #project-heading:after {
 	content: '';
 	position: absolute;
@@ -25,8 +23,6 @@
 	background-color: $secondary;
 	transition: 0.5s;
 }
-
-//
 
 #project-card-desktop {
 	height: 300px;

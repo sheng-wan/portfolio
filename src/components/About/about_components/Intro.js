@@ -1,11 +1,8 @@
 import React from 'react';
 import placeholder from '../../../images/logo-yellow.png';
 import './Intro.scss';
-// import MyModal from './MyModal';
 
 const Intro = () => {
-	// const [modalShow, setModalShow] = useState(false);
-
 	return (
 		<>
 			<div className='container mb-5'>
@@ -33,6 +30,8 @@ const Intro = () => {
 							<a
 								href='https://1drv.ms/b/s!AlxdLtWJy59D0V8_p8Cr7qY618mP'
 								className='d-lg-none col-lg-12 about-btn btn btn-lg btn-secondary mx-4 mb-2'
+								target='_blank'
+								rel='noopener noreferrer'
 							>
 								my resume{' '}
 							</a>{' '}
@@ -71,6 +70,8 @@ const Intro = () => {
 									id='about-btn about-btn-main'
 									href='https://1drv.ms/b/s!AlxdLtWJy59D0V8_p8Cr7qY618mP'
 									className='col-xl-3 col-lg-12 btn btn-lg btn-secondary mx-2 mb-2'
+									target='_blank'
+									rel='noopener noreferrer'
 								>
 									my resume{' '}
 								</a>{' '}
@@ -86,7 +87,6 @@ const Intro = () => {
 					</div>{' '}
 				</div>{' '}
 			</div>{' '}
-			{/* <MyModal show={modalShow} onHide={() => setModalShow(false)} />{' '} */}
 		</>
 	);
 };

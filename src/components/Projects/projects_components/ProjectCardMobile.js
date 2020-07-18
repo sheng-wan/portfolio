@@ -56,7 +56,7 @@ const ProjectCardMobile = () => (
 								src={python}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Python 3'
@@ -67,7 +67,7 @@ const ProjectCardMobile = () => (
 								src={django}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Django 3'
@@ -78,7 +78,7 @@ const ProjectCardMobile = () => (
 								src={html}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='HTML 5'
@@ -89,7 +89,7 @@ const ProjectCardMobile = () => (
 								src={javascript}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='JavaScript'
@@ -100,7 +100,7 @@ const ProjectCardMobile = () => (
 								src={css3}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='CSS 3'
@@ -111,7 +111,7 @@ const ProjectCardMobile = () => (
 								src={bootstrap}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Bootsrap 4'
@@ -122,7 +122,7 @@ const ProjectCardMobile = () => (
 								src={sass2}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Sass'
@@ -133,7 +133,7 @@ const ProjectCardMobile = () => (
 								src={nginx}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Nginx'
@@ -144,7 +144,7 @@ const ProjectCardMobile = () => (
 								src={gunicorn}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Gunicorn'
@@ -155,7 +155,7 @@ const ProjectCardMobile = () => (
 								src={aws}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='AWS'
@@ -218,7 +218,7 @@ const ProjectCardMobile = () => (
 								src={react}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='React.js'
@@ -229,7 +229,7 @@ const ProjectCardMobile = () => (
 								src={node}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Node.js'
@@ -240,7 +240,7 @@ const ProjectCardMobile = () => (
 								src={express}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Express.js'
@@ -251,7 +251,7 @@ const ProjectCardMobile = () => (
 								src={socketio}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Socket.io'
@@ -262,7 +262,7 @@ const ProjectCardMobile = () => (
 								src={css3}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='CSS 3'
@@ -273,7 +273,7 @@ const ProjectCardMobile = () => (
 								src={heroku}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Heroku'
@@ -284,7 +284,7 @@ const ProjectCardMobile = () => (
 								src={netlify}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Netlify'
@@ -346,7 +346,7 @@ const ProjectCardMobile = () => (
 								src={java}
 								alt=''
 								id='tech-icon-img-mobile'
-								className='mr-2'
+								className='mr-2 mb-2'
 								data-toggle='tooltip'
 								data-placement='top'
 								title='Java'

@@ -5,16 +5,13 @@ import './Header.scss';
 import logob from '../../images/logo-blue.png';
 
 const Header = ({ history }) => {
-	// state for menu toggle status
 	const [menuState, setMenuState] = useState({
 		inital: false,
 		clicked: null,
 		opened: 'MENU',
 	});
-	// state for disabled menu button
 	const [disabledState, setDisabledState] = useState(false);
 
-	// useEffect listening for page changes
 	useEffect(() => {
 		history.listen(() => {
 			setMenuState({
@@ -24,7 +21,6 @@ const Header = ({ history }) => {
 		});
 	}, [history]);
 
-	// menu toggle method
 	const handleToggle = () => {
 		disableMenu();
 		if (menuState.inital === false) {
@@ -38,7 +34,6 @@ const Header = ({ history }) => {
 				clicked: !menuState.clicked,
 				opened: 'MENU',
 			});
-			// document.getElementByClassName('header-menu').classList.add('open');
 		} else if (menuState.clicked === false) {
 			setMenuState({
 				clicked: !menuState.clicked,
@@ -47,7 +42,6 @@ const Header = ({ history }) => {
 		}
 	};
 
-	// determine if the menu button should be disabled
 	const disableMenu = () => {
 		setDisabledState(!disabledState);
 		setTimeout(() => {
@@ -59,7 +53,10 @@ const Header = ({ history }) => {
 		<header>
 			<div className='container'>
 				<div className='header-wrapper'>
-					<div id='header-inner-header'>
+					<div
+						id='header-inner-header'
+						className='position-relative d-flex justify-content-between align-items-center'
+					>
 						<div id='header-logo'>
 							<Link to='/'>
 								<img id='logo' src={logob} alt='WAN SHENG' />

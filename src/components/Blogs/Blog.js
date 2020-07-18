@@ -1,6 +1,5 @@
 import React from 'react';
 import Particles from 'react-tsparticles';
-import Typical from 'react-typical';
 
 import './Blog.scss';
 
@@ -10,18 +9,22 @@ const Blog = () => {
 			id='blog-container'
 			className='container-fluid position-absolute bg-primary h-100'
 		>
-			<Typical
-				className='blog-title text-white display-2 text-center position-relative'
-				loop={Infinity}
-				steps={['Coming Soon...', 4000]}
-			/>
+			<h1
+				id='blog-title'
+				className='text-white display-2 text-center position-relative align-self'
+			>
+				Coming Soon
+			</h1>
 			<Particles
 				id='tsparticles'
+				className='h-75'
 				params={{
 					background: {
 						color: {
 							value: '#0f4c81',
 						},
+						size: 'cover',
+						opacity: 1,
 					},
 					fpsLimit: 60,
 					interactivity: {

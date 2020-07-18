@@ -1,15 +1,13 @@
 import React, { useRef, useEffect } from 'react';
 import { gsap } from 'gsap';
 import { Link } from 'react-router-dom';
-import { staggerReveal, fadeInUp, staggerRevealClose } from './MenuAnimation';
+import { staggerReveal, staggerRevealClose } from './MenuAnimation';
 import './Menu.scss';
 
 const Menu = ({ menuState }) => {
-	// variables of our dom nodes
 	let menuLayer = useRef(null);
 	let reveal1 = useRef(null);
 	let reveal2 = useRef(null);
-	// let info = useRef(null);
 
 	useEffect(() => {
 		if (menuState.clicked === false) {
@@ -36,7 +34,6 @@ const Menu = ({ menuState }) => {
 				height: '100%',
 			});
 			staggerReveal(reveal1, reveal2);
-			// fadeInUp(info);
 		}
 	}, [menuState]);
 
@@ -80,18 +77,6 @@ const Menu = ({ menuState }) => {
 								</li>{' '}
 							</ul>{' '}
 						</nav>{' '}
-						{/* <div
-							ref={(el) => (info = el)}
-							id='info'
-							className='text-white  align-self-center w-25 ml-auto'
-						>
-							<h3> Quote of the Day </h3>{' '}
-							<p>
-								{' '}
-								Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-								eiusmod tempor incididunt ut labore et dolore magna aliqua.{' '}
-							</p>{' '}
-						</div>{' '} */}
 					</div>{' '}
 				</div>{' '}
 			</div>{' '}
