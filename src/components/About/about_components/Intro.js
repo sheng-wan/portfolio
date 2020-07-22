@@ -28,7 +28,7 @@ const Intro = () => {
 								my works{' '}
 							</a>{' '}
 							<a
-								href='https://1drv.ms/b/s!AlxdLtWJy59D0V8_p8Cr7qY618mP'
+								href='https://1drv.ms/b/s!AlxdLtWJy59D0jiki_TltHn7PbS3?e=07leJo'
 								className='d-lg-none col-lg-12 about-btn btn btn-lg btn-secondary mx-4 mb-2'
 								target='_blank'
 								rel='noopener noreferrer'
@@ -48,15 +48,21 @@ const Intro = () => {
 							<p className='lead'>
 								Greetings, I am Wan Sheng, a self-efficient Full-Stack Web
 								Developer, specializing in JavaScript, React.js, Python, Django,
-								CSS and more.
+								CSS and more.{' '}
+								<span className='text-primary font-weight-bold'>
+									Initialtive, Quick Learner, and Working Ethic
+								</span>{' '}
+								are my labels.
 							</p>{' '}
 							<p className='lead'>
-								Although most of my past experience are business operation and
-								ecommerce related, software development has always been my
-								passion. Moreover, I think it prepares me to be a better web
-								developer since I know more about what the clients see and their
-								logic. If you like my works, or interested in me, feel free to
-								reach me out. I am willing to take any coding challenges.
+								When I first met computer as a little kid, I was blown away. I
+								wondered when could I do something like these. Now that dream
+								come true. Although most of my past experience are business
+								operation and eCommerce related, that doesn't mean I am less
+								qualified as a software developer. In contrast, it prepares me
+								to be a better one since I understand more what the clients see
+								and think. If your team need talents and energy, feel free to
+								reach me out. I am willing to take any challenges.
 							</p>{' '}
 							<div id='btn-row' className='row '>
 								<a
@@ -68,7 +74,7 @@ const Intro = () => {
 								</a>{' '}
 								<a
 									id='about-btn about-btn-main'
-									href='https://1drv.ms/b/s!AlxdLtWJy59D0V8_p8Cr7qY618mP'
+									href='https://1drv.ms/b/s!AlxdLtWJy59D0jiki_TltHn7PbS3?e=07leJo'
 									className='col-xl-3 col-lg-12 btn btn-lg btn-secondary mx-2 mb-2'
 									target='_blank'
 									rel='noopener noreferrer'

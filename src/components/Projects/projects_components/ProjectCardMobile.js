@@ -304,7 +304,7 @@ const ProjectCardMobile = () => (
 						<a
 							id='project-links-mobile'
 							className='btn btn-secondary'
-							href='#'
+							href='https://5f163585e390fe0eb5221ad7--clever-nobel-b2af87.netlify.app/'
 							target='_blank'
 							rel='noopener noreferrer'
 						>

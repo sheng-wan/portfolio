@@ -38,7 +38,7 @@ const Skills = () => {
 				{' '}
 				my skills{' '}
 			</h1>
-			<div className='row mb-4 d-inline-flex'>
+			<div className='row mb-4 d-inline-flex justify-content-center'>
 				<div id='skills-box'>
 					<div
 						id='skills-img-box'
