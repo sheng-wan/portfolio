@@ -324,7 +324,7 @@ const ProjectCardDesktop = () => (
 							<a
 								id='project-links-desktop'
 								className='btn btn-secondary mr-2 align-self-end'
-								href='https://5f163585e390fe0eb5221ad7--clever-nobel-b2af87.netlify.app/'
+								href='https://5f18fd79d26a8ea11afdf0d3--wmchat-react-app.netlify.app/'
 								target='_blank'
 								rel='noopener noreferrer'
 							>
