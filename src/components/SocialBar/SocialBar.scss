@@ -14,18 +14,18 @@
 
     .bar-title {
       text-decoration: none;
-    }
 
-    #icon-img {
-      margin-left: 20px;
-      height: 40px;
-      width: 40px;
-      border-radius: 50%;
-      transition: 1s;
-      line-height: 40px;
+      #icon-img {
+        margin-left: 20px;
+        height: 40px;
+        width: 40px;
+        border-radius: 50%;
+        transition: 1s;
+        line-height: 40px;
 
-      img {
-        height: 30px;
+        img {
+          height: 30px;
+        }
       }
     }
   }
@@ -45,31 +45,30 @@
   #sticky-icon-bars {
     top: 35%;
     left: 0px;
-    width: 50px;
 
     .icon-bar {
       margin: 2px 0;
       border-radius: 0px 50px 50px 0px;
-      transform: translate(0px, 0px);
+      transform: translate(-130px, 0px);
 
       .bar-title {
-        display: none;
-      }
+        #icon-img {
+          width: 35px;
+          height: 35px;
+          margin-left: 10px;
+          line-height: 35px;
 
-      #icon-img {
-        width: 35px;
-        height: 35px;
-        margin: 0;
-        line-height: 35px;
-
-        img {
-          height: 25px;
+          img {
+            height: 25px;
+          }
         }
       }
+
     }
   }
 
   #sticky-icon-bars .icon-bar:hover {
+    transform: translate(-130px, 0px);
 
     #icon-img {
       transform: rotate(360deg);

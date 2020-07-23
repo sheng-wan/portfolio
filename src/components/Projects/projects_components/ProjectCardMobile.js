@@ -1,9 +1,9 @@
 import React from 'react';
 import './ProjectCardMobile.scss';
 
-import carss from '../../../images/project-covers/carss.webp';
-import wmchat from '../../../images/project-covers/wmchat.webp';
-import downosaur from '../../../images/project-covers/downasaur.webp';
+import carss from '../../../images/project-covers/carss.jpg';
+import wmchat from '../../../images/project-covers/wmchat.jpg';
+import downosaur from '../../../images/project-covers/downasaur.jpg';
 
 import python from '../../../images/skills-icons/python.png';
 import django from '../../../images/skills-icons/django.png';
@@ -203,7 +203,7 @@ const ProjectCardMobile = () => (
 					WMChat is a realtime chatting room application.The project is built
 					with React.js on the front end, and Node.js, Express.js(and Cors),
 					Socket.io on the back end.With Socket.io, a user can chat with other
-					users on the same channel in realtime.The app also features a user -
+					users on the same channel in realtime. The app also features a user -
 					friendly interface, user uniqueness check, join / leave broadcast, and
 					Emoji.
 				</p>

@@ -19,10 +19,10 @@ const SocialBar = () => {
 					rel='noopener noreferrer'
 				>
 					email
+					<div id='icon-img' className='bg-white d-inline-block  text-center'>
+						<img src={email3} alt='' />
+					</div>
 				</a>
-				<div id='icon-img' className='bg-white d-inline-block  text-center'>
-					<img src={email3} alt='' />
-				</div>
 			</div>
 
 			<div id='linkedin-bar' className='icon-bar p-2 text-right bg-primary'>
@@ -33,10 +33,10 @@ const SocialBar = () => {
 					rel='noopener noreferrer'
 				>
 					linkedin
+					<div id='icon-img' className='bg-white d-inline-block  text-center'>
+						<img src={linkedin} alt='' />
+					</div>
 				</a>
-				<div id='icon-img' className='bg-white d-inline-block  text-center'>
-					<img src={linkedin} alt='' />
-				</div>
 			</div>
 
 			<div id='github-bar' className='icon-bar p-2 text-right bg-dark'>
@@ -47,10 +47,10 @@ const SocialBar = () => {
 					rel='noopener noreferrer'
 				>
 					github
+					<div id='icon-img' className='bg-white d-inline-block  text-center'>
+						<img src={github} alt='' />
+					</div>
 				</a>
-				<div id='icon-img' className='bg-white d-inline-block  text-center'>
-					<img src={github} alt='' />
-				</div>
 			</div>
 		</div>
 	);

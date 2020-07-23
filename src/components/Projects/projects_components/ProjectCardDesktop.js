@@ -1,9 +1,9 @@
 import React from 'react';
 import './ProjectCardDesktop.scss';
 
-import carss from '../../../images/project-covers/carss.webp';
-import wmchat from '../../../images/project-covers/wmchat.webp';
-import downosaur from '../../../images/project-covers/downasaur.webp';
+import carss from '../../../images/project-covers/carss.jpg';
+import wmchat from '../../../images/project-covers/wmchat.jpg';
+import downosaur from '../../../images/project-covers/downasaur.jpg';
 
 import python from '../../../images/skills-icons/python.png';
 import django from '../../../images/skills-icons/django.png';
