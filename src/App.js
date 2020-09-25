@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
+// import ReactGA from 'react-ga';
+// import { createBrowserHistory } from 'history';
+import GA from './components/GoogleAnalytics';
 
 import Header from './components/Header/Header';
 import Index from './components/Index/Index';
@@ -10,17 +11,18 @@ import Projects from './components/Projects/Projects';
 import Blogs from './components/Blogs/Blog';
 import PageNotFound from './components/PageNotFound/PageNotFound';
 
-const trackingId = 'UA-176439950-1';
-ReactGA.initialize(trackingId);
-const history = createBrowserHistory();
-history.listen((location) => {
-	ReactGA.set({ page: location.pathname }); // Update the user's current page
-	ReactGA.pageview(location.pathname); // Record a pageview for the given page
-});
+// const trackingId = 'UA-176439950-1';
+// ReactGA.initialize(trackingId);
+// const history = createBrowserHistory();
+// history.listen((location) => {
+// 	ReactGA.set({ page: location.pathname }); // Update the user's current page
+// 	ReactGA.pageview(location.pathname); // Record a pageview for the given page
+// });
 
 function App() {
 	return (
-		<Router history={history}>
+		<Router>
+			{GA.init() && <GA.RouteTracker />}
 			<div className='App'>
 				<Header />
 				<div className='container'>
