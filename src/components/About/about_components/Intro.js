@@ -28,7 +28,7 @@ const Intro = () => {
 								my works{' '}
 							</a>{' '}
 							<a
-								href='https://1drv.ms/b/s!AlxdLtWJy59D0jiki_TltHn7PbS3?e=07leJo'
+								href='https://1drv.ms/b/s!AlxdLtWJy59D70p0ILRlZPCV35Nr?e=9cSA0C'
 								className='d-lg-none col-lg-12 about-btn btn btn-lg btn-secondary mx-4 mb-2'
 								target='_blank'
 								rel='noopener noreferrer'
@@ -74,7 +74,7 @@ const Intro = () => {
 								</a>{' '}
 								<a
 									id='about-btn about-btn-main'
-									href='https://1drv.ms/b/s!AlxdLtWJy59D0jiki_TltHn7PbS3?e=07leJo'
+									href='https://1drv.ms/b/s!AlxdLtWJy59D70p0ILRlZPCV35Nr?e=9cSA0C'
 									className='col-xl-3 col-lg-12 btn btn-lg btn-secondary mx-2 mb-2'
 									target='_blank'
 									rel='noopener noreferrer'
