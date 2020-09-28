@@ -28,7 +28,7 @@ const Intro = () => {
 								my works{' '}
 							</a>{' '}
 							<a
-								href='https://1drv.ms/b/s!AlxdLtWJy59D0jiki_TltHn7PbS3?e=07leJo'
+								href='https://1drv.ms/b/s!AlxdLtWJy59D0jjBw8yzW-SuEJ62?e=Fxonh6'
 								className='d-lg-none col-lg-12 about-btn btn btn-lg btn-secondary mx-4 mb-2'
 								target='_blank'
 								rel='noopener noreferrer'
