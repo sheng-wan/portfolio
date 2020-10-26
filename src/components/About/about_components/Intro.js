@@ -9,6 +9,7 @@ const Intro = () => {
 	function handleClick() {
 		history.push("/projects");
 	}
+
 	return (
 		<>
 			<div className="container mb-5">
@@ -28,7 +29,6 @@ const Intro = () => {
 						<div className="row mt-4">
 							<button
 								onClick={handleClick}
-								// to="/#/projects"
 								className="d-lg-none col-lg-12 about-btn btn btn-lg btn-outline-primary mx-4 mb-2"
 							>
 								my works
