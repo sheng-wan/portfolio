@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Switch, Route } from "react-router-dom";
+import { HashRouter as Router, Switch, Route } from "react-router-dom";
 import ReactGA from "react-ga";
 import { createBrowserHistory } from "history";
 
@@ -20,7 +20,7 @@ history.listen((location) => {
 
 function App() {
 	return (
-		<HashRouter>
+		<Router history={history}>
 			<div className="App">
 				<Header />
 				<div className="container">
@@ -33,7 +33,7 @@ function App() {
 					</Switch>
 				</div>
 			</div>
-		</HashRouter>
+		</Router>
 	);
 }
 

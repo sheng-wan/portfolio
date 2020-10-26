@@ -21,7 +21,7 @@ const Intro = () => {
 						></img>
 						<div className="row mt-4">
 							<a
-								href="/#/projects"
+								href="/projects"
 								className="d-lg-none col-lg-12 about-btn btn btn-lg btn-outline-primary mx-4 mb-2"
 							>
 								my works
