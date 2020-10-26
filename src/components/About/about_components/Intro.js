@@ -73,13 +73,13 @@ const Intro = () => {
 								reach me out. I am willing to take any challenges.
 							</p>
 							<div id="btn-row" className="row ">
-								<a
+								<button
 									id="about-btn about-btn-main"
-									href="/projects"
+									onClick={handleClick}
 									className="col-xl-3 col-lg-12 btn btn-lg btn-outline-primary mx-2 mb-2"
 								>
 									my works
-								</a>
+								</button>
 								<a
 									id="about-btn about-btn-main"
 									href="https://1drv.ms/b/s!AlxdLtWJy59D70p0ILRlZPCV35Nr?e=9cSA0C"
