@@ -1,8 +1,14 @@
 import React from "react";
+import { useHistory } from "react-router-dom";
 import placeholder from "../../../images/logo-yellow.png";
 import "./Intro.scss";
 
 const Intro = () => {
+	let history = useHistory();
+
+	function handleClick() {
+		history.push("/projects");
+	}
 	return (
 		<>
 			<div className="container mb-5">
@@ -20,12 +26,13 @@ const Intro = () => {
 							alt=""
 						></img>
 						<div className="row mt-4">
-							<a
-								href="/projects"
+							<button
+								onClick={handleClick}
+								// to="/#/projects"
 								className="d-lg-none col-lg-12 about-btn btn btn-lg btn-outline-primary mx-4 mb-2"
 							>
 								my works
-							</a>
+							</button>
 							<a
 								href="https://1drv.ms/b/s!AlxdLtWJy59D70p0ILRlZPCV35Nr?e=9cSA0C"
 								className="d-lg-none col-lg-12 about-btn btn btn-lg btn-secondary mx-4 mb-2"
