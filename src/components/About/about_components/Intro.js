@@ -48,9 +48,11 @@ const Intro = () => {
 								Greetings, I am Wan Sheng, a self-efficient Full-Stack Web
 								Developer, specializing in JavaScript, React.js, Python, Django,
 								CSS and more.
+								<span> </span>
 								<span className="text-primary font-weight-bold">
 									Initialtive, Quick Learner, and Working Ethic
 								</span>
+								<span> </span>
 								are my labels.
 							</p>
 							<p className="lead">
