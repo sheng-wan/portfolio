@@ -34,7 +34,7 @@ const Intro = () => {
 								my works
 							</button>
 							<a
-								href="https://1drv.ms/u/s!AlxdLtWJy59D0V681vz5fGylkug8?e=PMi37m"
+								href="https://drive.google.com/file/d/1xJ2EjlrvPF05DTdw_PTHDqRzo2OqwdRg/view?usp=sharing"
 								className="d-lg-none col-lg-12 about-btn btn btn-lg btn-secondary mx-4 mb-2"
 								target="_blank"
 								rel="noopener noreferrer"
@@ -82,7 +82,7 @@ const Intro = () => {
 								</button>
 								<a
 									id="about-btn about-btn-main"
-									href="https://1drv.ms/u/s!AlxdLtWJy59D0V681vz5fGylkug8?e=PMi37m"
+									href="https://drive.google.com/file/d/1xJ2EjlrvPF05DTdw_PTHDqRzo2OqwdRg/view?usp=sharing"
 									className="col-xl-3 col-lg-12 btn btn-lg btn-secondary mx-2 mb-2"
 									target="_blank"
 									rel="noopener noreferrer"
