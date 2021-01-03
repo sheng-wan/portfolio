@@ -170,16 +170,11 @@ const PROJECTS_DATA = [
 			},
 			{
 				id: 3,
-				title: "Socket.io",
-				imageUrl: socketio,
-			},
-			{
-				id: 4,
 				title: "Sass",
 				imageUrl: sass2,
 			},
 			{
-				id: 5,
+				id: 4,
 				title: "Heroku",
 				imageUrl: heroku,
 			},
