@@ -1,0 +1,130 @@
+@import '../../../custom.scss';
+
+#project-card-desktop {
+	height: 300px;
+	background: $secondary;
+	box-shadow: 10px 20px 20px rgba(0, 0, 0, 0.5);
+
+	#project-banner-desktop {
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+
+		#project-banner-img-desktop {
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+			transition: 0.5s;
+		}
+	}
+
+	#project-content-desktop {
+		clip-path: polygon(60% 0, 100% 0, 100% 100%, 50% 100%);
+		width: 100%;
+		height: 100%;
+		background: #fff;
+		transition: 0.5s;
+		overflow: hidden;
+		box-sizing: border-box;
+
+		#project-content-title-desktop {
+			margin-left: 62%;
+			transition: 0.6s;
+		}
+
+		#project-content-desc-desktop {
+			margin-left: 62%;
+			margin-right: 2%;
+			opacity: 1;
+			transition: 0.7s;
+			display: -webkit-box;
+			-webkit-line-clamp: 4;
+			-webkit-box-orient: vertical;
+			overflow: hidden;
+		}
+
+		#project-tech-desktop {
+			opacity: 0;
+			transition: 0.5s;
+		}
+
+		#project-tech-icons-desktop {
+			margin-left: 61.5%;
+			margin-top: -3%;
+			padding-left: 0;
+			transition: 0.8s;
+
+			#tech-icon-img-desktop {
+				height: 45px;
+			}
+
+			#tech-icon-img-hidden-desktop {
+				height: 45px;
+				opacity: 0;
+			}
+		}
+
+		#project-buttons-desktop {
+			opacity: 0;
+
+			#project-links-desktop {
+				width: 110px;
+			}
+		}
+	}
+}
+
+#project-card-desktop:hover {
+	#project-banner-desktop {
+		#project-banner-img-desktop {
+			opacity: 0;
+		}
+	}
+
+	#project-content-desktop {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+		width: 100%;
+		height: 100%;
+		bottom: 0;
+		left: 0;
+
+		#project-content-title-desktop {
+			margin: 0% 3%;
+			transition: 0.6s;
+		}
+
+		#project-content-desc-desktop {
+			margin: 0 2% 0 3%;
+			opacity: 1;
+			transition: 0.7s;
+		}
+
+		#project-tech-desktop {
+			margin: 0 3%;
+			opacity: 1;
+			transition: 0.5s;
+			transition-delay: 0.8s;
+		}
+
+		#project-tech-icons-desktop {
+			margin-left: 4%;
+			margin-top: 1%;
+			transition: 0.8s;
+
+			#tech-icon-img-hidden-desktop {
+				opacity: 1;
+				transition: 0.8s;
+			}
+		}
+
+		#project-buttons-desktop {
+			margin-top: 1%;
+			opacity: 1;
+			transition: 0.5s;
+			transition-delay: 0.8s;
+		}
+	}
+}

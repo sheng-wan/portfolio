@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600&display=swap');
+
+#pnf-container {
+  top: 0;
+  left: 0;
+}
+
+#pnf-content {
+  top: 35%;
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+@media(max-width:1280px) {
+  #rainbow {
+    display: none;
+  }
+}
+
+@media(max-width:992px) {
+  #nyancat {
+    width: 500px;
+    transition: .3s;
+  }
+  #tsparticles {
+    height: 75%;
+  }
+}
+
+@media(max-width:720px) {
+  #nyancat {
+    width: 400px;
+    transition: .3s;
+  }
+}
