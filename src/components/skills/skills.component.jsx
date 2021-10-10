@@ -1,10 +1,9 @@
-import React from "react";
-import SKILLS_DATA from "./skills.data";
-import "./skills.styles.scss";
 import SkillItem from "../skill-item/skill-item.component";
+import "./skills.styles.scss";
+import SKILLS_DATA from "./skills.data";
 
 const Skills = () => {
-	const skills = SKILLS_DATA;
+	const skills = SKILLS_DATA.sort((a, b) => a.title.localeCompare(b.title));
 
 	return (
 		<div className="container mb-5">

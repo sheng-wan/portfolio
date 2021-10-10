@@ -1,7 +1,6 @@
-import React from "react";
 import "./project-card-desktop.styles.scss";
 
-const ProjectCardDesktop = ({ project, viewport }) => {
+const ProjectCardDesktop = ({ project }) => {
 	let techShow = project.tech;
 	let techHide = [];
 

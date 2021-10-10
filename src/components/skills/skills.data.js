@@ -7,7 +7,9 @@ import django from "../../assets/images/skills-icons/django.png";
 import express from "../../assets/images/skills-icons/expressjs.png";
 import firebase from "../../assets/images/skills-icons/firebase.png";
 import flask from "../../assets/images/skills-icons/flask.png";
+import gatsby from "../../assets/images/skills-icons/gatsby.png";
 import git from "../../assets/images/skills-icons/git.png";
+import graphql from "../../assets/images/skills-icons/graphql.png";
 import gunicorn from "../../assets/images/skills-icons/gunicorn.png";
 import heroku from "../../assets/images/skills-icons/heroku.png";
 import html from "../../assets/images/skills-icons/html5.png";
@@ -15,11 +17,13 @@ import java from "../../assets/images/skills-icons/java.png";
 import javascript from "../../assets/images/skills-icons/javascript.png";
 import jquery from "../../assets/images/skills-icons/jquery.png";
 import linux from "../../assets/images/skills-icons/linux.png";
+import materialui from "../../assets/images/skills-icons/materialui.png";
 import mongodb from "../../assets/images/skills-icons/mongodb.png";
 import mysql from "../../assets/images/skills-icons/mysql.png";
 import netlify from "../../assets/images/skills-icons/netlify.png";
 import nginx from "../../assets/images/skills-icons/nginx.png";
 import node from "../../assets/images/skills-icons/node.png";
+import npm from "../../assets/images/skills-icons/npm.png";
 import pm2 from "../../assets/images/skills-icons/pm2.png";
 import postgresql from "../../assets/images/skills-icons/postgresql.png";
 import python from "../../assets/images/skills-icons/python.png";
@@ -28,7 +32,8 @@ import redux from "../../assets/images/skills-icons/redux.png";
 import sass from "../../assets/images/skills-icons/sass.png";
 import socketio from "../../assets/images/skills-icons/socketio.png";
 import springboot from "../../assets/images/skills-icons/springboot.png";
-import sqlite from "../../assets/images/skills-icons/sqlite.png";
+import typescript from "../../assets/images/skills-icons/typescript.png";
+import jest from "../../assets/images/skills-icons/jest.png";
 
 const SKILLS_DATA = [
 	{
@@ -183,8 +188,33 @@ const SKILLS_DATA = [
 	},
 	{
 		id: 30,
-		title: "SQLite",
-		imageUrl: sqlite,
+		title: "Gatsby.js",
+		imageUrl: gatsby,
+	},
+	{
+		id: 31,
+		title: "GraphQL",
+		imageUrl: graphql,
+	},
+	{
+		id: 32,
+		title: "MaterialUi",
+		imageUrl: materialui,
+	},
+	{
+		id: 33,
+		title: "NPM",
+		imageUrl: npm,
+	},
+	{
+		id: 34,
+		title: "TypeScript",
+		imageUrl: typescript,
+	},
+	{
+		id: 35,
+		title: "Jest",
+		imageUrl: jest,
 	},
 ];
 

@@ -1,4 +1,3 @@
-import React from "react";
 import "./skill-item.component.scss";
 
 const SkillItem = ({ skill }) => {

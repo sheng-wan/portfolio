@@ -1,4 +1,3 @@
-import React from "react";
 import "./social-bar.styles.scss";
 
 const SocialBar = ({ item }) => {

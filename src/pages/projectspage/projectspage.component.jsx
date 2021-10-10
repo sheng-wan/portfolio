@@ -1,12 +1,11 @@
-import React from "react";
 import { addBackToTop } from "vanilla-back-to-top";
 import { useMediaQuery } from "react-responsive";
-
-import "./projectspage.styles.scss";
 
 import ProjectCardDesktop from "../../components/project-card-desktop/project-card-desktop.component";
 import ProjectCardMobile from "../../components/project-card-mobile/project-card-mobile.component";
 import SocialStickyBars from "../../components/social-sticky-bars/social-sticky-bars.component";
+
+import "./projectspage.styles.scss";
 
 import PROJECTS_DATA from "./projects.data";
 

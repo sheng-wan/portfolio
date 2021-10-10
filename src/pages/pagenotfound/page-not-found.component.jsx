@@ -1,4 +1,3 @@
-import React from "react";
 import Particles from "react-tsparticles";
 import Typical from "react-typical";
 import "./page-not-found.styles.scss";

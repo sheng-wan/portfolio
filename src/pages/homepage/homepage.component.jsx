@@ -1,4 +1,4 @@
-import React from "react";
+import Typical from "react-typical";
 import "./homepage.styles.scss";
 
 const HomePage = () => {
@@ -13,7 +13,7 @@ const HomePage = () => {
 					<span className="text-primary">S</span>heng
 				</h1>
 				<h4 id="index-title-2" className="text-primary font-weight-bold">
-					Full Stack Web Developer
+					<Typical steps={["Software Engineer", 1000]} />
 				</h4>
 			</div>
 		</div>

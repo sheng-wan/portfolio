@@ -1,6 +1,5 @@
-import React from "react";
-import SOCIAL_DATA from "./social.data";
 import SocialBar from "../social-bar/social-bar.component";
+import SOCIAL_DATA from "./social.data";
 import "./social-sticky-bars.styles.scss";
 
 const SocialStickyBars = () => {

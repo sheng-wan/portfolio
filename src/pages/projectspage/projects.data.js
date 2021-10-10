@@ -27,8 +27,7 @@ const PROJECTS_DATA = [
 	{
 		id: 0,
 		title: "#notmydownasaur - Game",
-		desc:
-			"#notmydownassaur is a pure Java application, inspired by the famous chrome downassaur game. Using Object-Oriented-Programming, each character, enemy, and landscape block is an object. Combining with the gravitational system, scoring algorithm and randomly generated enemies and landscapes, it is a complete mini-game.",
+		desc: "#notmydownassaur is a pure Java application, inspired by the famous chrome downassaur game. Using Object-Oriented-Programming, each character, enemy, and landscape block is an object. Combining with the gravitational system, scoring algorithm and randomly generated enemies and landscapes, it is a complete mini-game.",
 		tech: [
 			{
 				id: 0,
@@ -43,8 +42,7 @@ const PROJECTS_DATA = [
 	{
 		id: 1,
 		title: "WMChat - Realtime Chatting",
-		desc:
-			"WMChat is a realtime chatting room application.The project is built with React.js on the front end, and Node.js, Express.js(and Cors), Socket.io on the back end.With Socket.io, a user can chat with other users on the same channel in realtime.The app also features a user - friendly interface, user uniqueness check, join / leave broadcast,and Emoji.",
+		desc: "WMChat is a realtime chatting room application.The project is built with React.js on the front end, and Node.js, Express.js(and Cors), Socket.io on the back end.With Socket.io, a user can chat with other users on the same channel in realtime.The app also features a user - friendly interface, user uniqueness check, join / leave broadcast,and Emoji.",
 		tech: [
 			{
 				id: 0,
@@ -89,8 +87,7 @@ const PROJECTS_DATA = [
 	{
 		id: 2,
 		title: "Carss - Online Auto Dealer",
-		desc:
-			"Carss is an online auto dealer website where users can search and browse car listing and contact the sales advisor for test drives, and the company can manage its employees, car listings, users, messages through an admin system.The project is written in Python 3.7 and Django 3.0.",
+		desc: "Carss is an online auto dealer website where users can search and browse car listing and contact the sales advisor for test drives, and the company can manage its employees, car listings, users, messages through an admin system.The project is written in Python 3.7 and Django 3.0.",
 		tech: [
 			{
 				id: 0,
@@ -144,14 +141,13 @@ const PROJECTS_DATA = [
 			},
 		],
 		github: "https://github.com/wansheng-dev/Project_Carss_Online_Auto_Dealer",
-		link: "http://18.144.133.255/",
+		link: "",
 		thumbnail: carss,
 	},
 	{
 		id: 3,
 		title: "My Portfolio Website",
-		desc:
-			"I developed my personal portfoilio website from scratch using React.js, the application is styled with Bootstrap and GSAP animation.",
+		desc: "I developed my personal portfoilio website from scratch using React.js, the application is styled with Bootstrap and GSAP animation.",
 		tech: [
 			{
 				id: 0,
@@ -186,8 +182,7 @@ const PROJECTS_DATA = [
 	{
 		id: 4,
 		title: "StormyLikes - Social Media Growth Service",
-		desc:
-			"StormyLikes is a freelance job for a professional social media growth service website. The application is built with Python & Django, I was responsible for the UI/UX design, full frontend and some backend development.",
+		desc: "StormyLikes is a freelance job for a professional social media growth service website. The application is built with Python & Django, I was responsible for the UI/UX design, full frontend and some backend development.",
 		tech: [
 			{
 				id: 0,

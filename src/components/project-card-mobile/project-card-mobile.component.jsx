@@ -1,4 +1,3 @@
-import React from "react";
 import "./project-card-mobile.styles.scss";
 
 const ProjectCardMobile = ({ project }) => {
