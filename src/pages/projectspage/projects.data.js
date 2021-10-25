@@ -42,7 +42,7 @@ const PROJECTS_DATA = [
 	{
 		id: 1,
 		title: "WMChat - Realtime Chatting",
-		desc: "WMChat is a realtime chatting room application.The project is built with React.js on the front end, and Node.js, Express.js(and Cors), Socket.io on the back end.With Socket.io, a user can chat with other users on the same channel in realtime.The app also features a user - friendly interface, user uniqueness check, join / leave broadcast,and Emoji.",
+		desc: "WMChat is a realtime chatting room application. Users can chat with each other on the same channel in realtime. Features including username check, join / leave broadcast,and Emoji.",
 		tech: [
 			{
 				id: 0,

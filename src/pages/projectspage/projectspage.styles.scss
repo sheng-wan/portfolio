@@ -1,7 +1,7 @@
 @import '../../custom.scss';
 
-.h1-project:after {
-  content: '';
+#project-heading:after {
+  content: "";
   position: absolute;
   bottom: 0;
   right: 50%;
@@ -12,8 +12,8 @@
   transition: 0.5s;
 }
 
-.h1-project::before {
-  content: '';
+#project-heading::before {
+  content: "";
   position: absolute;
   bottom: 0;
   left: 50%;
